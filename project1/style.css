@@ -45,6 +45,9 @@ h1{
 	margin-left: 30px;
 }
 
+h1:hover{
+	font-family: 'Bungee', cursive;
+}
 
 .content{
 	height: 100vh;
@@ -118,6 +121,4 @@ a{
 	all: unset;
 }
 
-h1:hover{
-	font-family: 'Bungee', cursive;
-}
+
