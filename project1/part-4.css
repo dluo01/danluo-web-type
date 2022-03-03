@@ -121,6 +121,11 @@ h1:hover{
 	width: 50vw;
 }
 
+h3{
+	font-family: "Outfit", sans-serif;
+	font-size:20px;
+}
+
 .counterbox{
 	display: grid;
 	grid-template-columns: 2fr 1fr;
