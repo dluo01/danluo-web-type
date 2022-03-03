@@ -9,26 +9,9 @@
 }
 
 @font-face{
-	src: url(fonts/bungee-inline.ttf);
-	font-family: bungee-inline;
-}
-
-@font-face{
-	src: url(fonts/bungee-shade.ttf);
-	font-family: bungee-shade;
-}
-
-@font-face{
 	src: url(fonts/bungee-outline.ttf);
 	font-family: bungee-outline;
 }
-
-@font-face{
-	src: url(fonts/playbox,otf);
-	font-family: playbox;
-}
-
-
 
 
 #title{
@@ -57,15 +40,11 @@
 }
 
 h1{
-	font-family: bungee-outline;
+	font-family: 'Bungee Outline', cursive;
 	font-size: 70px;
 	margin-left: 30px;
 }
 
-
-.number{
-	font-family: playbox;
-}
 
 .content{
 	height: 100vh;
@@ -140,5 +119,5 @@ a{
 }
 
 h1:hover{
-	font-family: bungee;
+	font-family: 'Bungee', cursive;
 }
