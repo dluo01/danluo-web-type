@@ -19,7 +19,7 @@
 	<div>
 		<div class="banner">
 			<img id="title" src="images/title.png">
-			<a href="index.html"><img id="menu-icon" src="images/menu-icon-fade.png"></a>
+			<!-- <a href="index.html"><img id="menu-icon" src="images/menu-icon-fade.png"></a> -->
 		</div>
 		<div><img id="line-h" src="images/line-h.png"></div>
 	</div>
@@ -29,49 +29,18 @@
 			<div class="container">
 				<div class="counterbox">
 					<div class="left">
-						<p>
-							Fonts on the web have always been a single-color deal. (Even in the print world color type is a rarity.) It’s because a traditional font file contains vector shapes that have no color information and is given a default black fill when shown on the browsers.
-							<br><br>
-							On the web, changing color to text is straightforward. We take an element…
-						</p>
-						<br><br>
+						<ol>
+						<li>These fonts can be huge. A color font file is generally larger than a regular font file, and a lot more when the font embeds high-resolution bitmap characters. Whereas fonts usually weigh tens to a few hundred kilobytes, color vector fonts can reach hundreds of kilobytes to a couple megabytes depending on their visual complexity. Color bitmap fonts may range from a few megabytes to tens of megabytes, and sizes increase when multiple color font formats are embedded in a single file.
+						</li>
 
-						<img src="images/part2-1.png">
-						<br><br><br>
-						
-						<p>
-							…and color the text inside it with CSS:
-							<br><br>
-						</p>
-
-						<img src="images/part2-2.png">
-						<br><br><br>
-
-						<p>
-							The result is something like this:
-							<br><br>
-						</p>
-
-						<img src="images/part2-3.png">
-						<br><br><br>
-
-						<p>
-							What if we want to add some more colors to our letters? Say we’d like to have the letters in dark gray, with a green shine and a pink center: 
-							<br><br><br>
-						</p>
-
-						<img src="images/part2-4.png">
-						<br><br><br>
-
-
-						<p>
-							We couldn’t do that until, very recently, the SVG in Opentype technology came out.
-							<br><br><br><br><br><br><br><br>
-						</p>
+						<li>Support in different browsers. You’ll have to serve up an individual font file for each technique. Today this’d mean two font files, one for IE11 on Windows 8.1 and newer, and one for Firefox. I don’t think there’s a way to do feature testing for this, so you’d either have to sniff user agent strings, or serve them both to each visitor. Theoretically the proposals could live together inside one file, but I haven’t found any tools to do this with yet. Which version the browser would choose when it’d support them all remains to be seen.
+						</li>
+						</ol>
+					
 				
 					</div>
 					<div class="right">
-						<a href="index.html"><img class="close-button" src="images/x.png"></a>
+						<a href="index.html"><img class="close-button" src="images/x-black.png"></a>
 						<div class="caption">
 						<p>
 						</p>

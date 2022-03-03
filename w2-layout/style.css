@@ -1,0 +1,37 @@
+
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 18px;
+	font-family: gimlet-text, serif;
+	font-weight: 500;
+	font-style: normal;
+	line-height: 1.5em;
+}
+
+h1,h2{
+	font-size: 60px;
+	line-height: 1.2em;
+}
+
+.wrapper{
+	width: 50%;
+	/*background-color: lightgray;*/
+	margin: auto;
+	margin-top: 10vh;
+}
+
+.body-text{
+	margin: 10%;
+}
+
+img{
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+}

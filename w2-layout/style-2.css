@@ -1,0 +1,55 @@
+
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 18px;
+	font-family: gimlet-text, serif;
+	font-weight: 500;
+	font-style: normal;
+	line-height: 1.5em;
+}
+
+h1{
+	font-size: 60px;
+	line-height: 1.2em;
+}
+
+h2{
+	font-size: 50px;
+	line-height: 1.2em;
+}
+
+h3{
+	font-size: 40px;
+	line-height: 1.2em;
+}
+
+.wrapper{
+	width: 80%;
+	/*background-color: lightgray;*/
+	margin: auto;
+	margin-top: 10vh;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.image,.body-text{
+	width: 50%;
+}
+
+img{
+	width: 90%;
+	margin: auto;
+}
+
+.body-text{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+

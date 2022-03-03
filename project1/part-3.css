@@ -60,10 +60,6 @@ h1:hover{
 }
 
 
-.number{
-	font-family: playbox;
-}
-
 .grid-container{
 	display: flex;
 	flex-direction: row;
@@ -116,9 +112,15 @@ h1:hover{
 	background-color: #E0EE08;
 	font-family: "Outfit", sans-serif;
 	font-size: 15px;
-	line-height: 1.8;
-	color: white;
+	line-height: 1.7;
+	color: black;
 	width: 50vw;
+}
+
+h3{
+	font-family: "Outfit", sans-serif;
+	font-size:20px;
+	
 }
 
 .counterbox{
@@ -136,6 +138,14 @@ h1:hover{
 
 img{
 	width: 32vw;
+}
+
+.cell{
+	margin-bottom: 40px;
+}
+
+.cell-image{
+	margin-bottom: 20px;
 }
 
 .fixed-window{
