@@ -52,9 +52,19 @@ a{
 }
 
 h1{
+	font-family: bungee-outline;
+	font-size: 70px;
+	margin-left: 30px;
+}
+
+h2{
 	font-family: bungee;
 	font-size: 70px;
 	margin-left: 30px;
+}
+
+h1:hover{
+	font-family: bungee;
 }
 
 

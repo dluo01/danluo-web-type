@@ -19,9 +19,16 @@
 }
 
 @font-face{
+	src: url(fonts/bungee-outline.ttf);
+	font-family: bungee-outline;
+}
+
+@font-face{
 	src: url(fonts/playbox,otf);
 	font-family: playbox;
 }
+
+
 
 
 #title{
@@ -49,8 +56,8 @@
 	height:100vh;
 }
 
-ol,p{
-	font-family: bungee;
+h1{
+	font-family: bungee-outline;
 	font-size: 70px;
 	margin-left: 30px;
 }
@@ -132,3 +139,6 @@ a{
 	all: unset;
 }
 
+h1:hover{
+	font-family: bungee;
+}

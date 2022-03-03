@@ -53,6 +53,12 @@ a{
 }
 
 h1{
+	font-family: bungee-outline;
+	font-size: 70px;
+	margin-left: 30px;
+}
+
+h2{
 	font-family: bungee;
 	font-size: 70px;
 	margin-left: 30px;
@@ -150,4 +156,8 @@ img{
 	width: 2%;
 	position: absolute;
 	left: 45%;
+}
+
+h1:hover{
+	font-family: bungee;
 }
