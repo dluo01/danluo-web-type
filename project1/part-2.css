@@ -21,6 +21,11 @@ a{
 }
 
 @font-face{
+	src: url(fonts/bungee-shade.ttf);
+	font-family: bungee-outline;
+}
+
+@font-face{
 	src: url(fonts/playbox,otf);
 	font-family: playbox;
 }
