@@ -38,6 +38,13 @@
 
 /*right column right column right column right column right column right column right column*/
 
+#backward-button{
+	width: 10vw;
+	position: absolute;
+	right: 8vw;
+	bottom: 10vw;
+	display: none;
+}
 
 .titles{
 	max-width: 50vw;
@@ -107,7 +114,7 @@ a{
 	position: absolute;
 	right: 8vw;
 	bottom: 10vw;
-	/*display: none;*/
+	display: none;
 }
 
 .samples{
@@ -264,22 +271,42 @@ a{
 }
 
 @media screen and (max-width: 425px){
+	
+	/*general*/
 	.container{
-	grid-template-columns:100vw 0 0;
-}
-	.gradient-bar-v,.right-column-wrapper{
+	grid-template-columns:0 0 100vw;
+	}
+
+	.left-column-wrapper,.gradient-bar-v{
 	 	display: none;
 	}
 
+	/*right*/
+	h1{
+		font-family:'Bungee', cursive;
+		font-size: 32px;
+	}
+
+	.titles{
+	grid-row-gap: 1em;
+	margin-top: 4vh;
+	}
+
+	.title-1,.title-2,.title-3,.title-4,.title-5{
+		margin-bottom: 2vh;
+		margin-left: 5vw;
+	}
+
+	/*left*/
 	.samples{
 	margin-top: 10vh;
-	margin-left: 8vw;
-	margin-right: 8vw;
+	margin-left: 6vw;
+	margin-right: 6vw;
 	margin-bottom: 5vh;
 	display: grid;
 	grid-template-columns:repeat(3, 1fr);
 	grid-template-rows:repeat(4, 1fr);
-	grid-column-gap: 4vw;	
+	grid-column-gap: 2vw;	
 	grid-row-gap: 1.5vw;
 	animation: floating 3s infinite ease;	
 }
@@ -290,12 +317,16 @@ a{
     	100%   { transform: translate(0, 0px); } 
 	}
 
-
+	/*new elements on the mobile version*/
 	#hidden{
 	display: block;
 }
 
 	#forward-button{
+	display: block;
+}
+
+	#backward-button{
 	display: block;
 }
 
