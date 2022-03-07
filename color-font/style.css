@@ -110,6 +110,10 @@ a{
 	display: none;
 }
 
+.left-column-container{
+	overflow: hidden;
+}
+
 .samples{
 	margin-top: 6vh;
 	margin-left: 3vw;
@@ -271,7 +275,7 @@ a{
 	 	display: none;
 	}
 	.samples{
-	margin-top: 6vh;
+	margin-top: 3vh;
 	margin-left: 8vw;
 	margin-right: 8vw;
 	margin-bottom: 5vh;
