@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title> COLOR FONTS</title>
+
+	<!-- bungee -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Hairline&family=Bungee+Inline&family=Bungee+Outline&family=Bungee+Shade&display=swap" rel="stylesheet">
+
+	<!-- Outfit -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400&display=swap" rel="stylesheet">
+	
+	<!-- Fredoka -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="part-2-2.css">
+</head>
+
+<body>
+<!-- content wrapper -->
+	<div class="wrapper">
+		<div class="container">
+<!-- left column -->
+			<div class="left-column-wrapper">
+			<div class="left-column-container">
+				<div class="body-text">
+					<div>
+					<p>The OpenType-SVG font format was initially designed by Mozilla & Adobe. Before it became an industry standard in early 2016, other big players had made their own proposals.</p><br><br>
+
+					<img src="images/big-players.png"><br><br><br>
+
+					<h2>Google’s PNG images (CBDT/CBLC table)</h2><br>
+					<p>Google proposed an implementation which uses PNG images for the glyphs. The glyphs are simply replaced by good old images. This works fine for smaller icons, and obviously brings all the creative freedom of bitmap images, but doesn’t scale very well. Blow up a glyph big enough, and you’ll encounter blurred pixels. It’s also going to be hard, if not impossible, to change the color of the glyphs with CSS. Interesting is that they specify that there should be no GLYF table in their implementation — the table that holds the uncolored “normal” glyphs — so it looks like there’s no fallback for when this format isn’t supported.</p><br><br>
+
+					<h2>Apple’s PNG images (SBIX table)</h2><br>
+					<p>Apple proposed a proprietary system similar to Google’s. It uses PNG images, so it runs into the same scaling problems. Support for this format is in iOS4+ and OSX 10.7+. This spec hasn’t officially been published by Apple and doesn’t seem to be supported outside the Apple ecospace, and as far as I understand, it’s not been submitted to become an official part of the OpenType format.</p><br><br>
+
+					<h2>Microsoft’s overlapped glyphs (COLR/CPAL table)</h2><br>
+					<p>Microsoft proposed a simple idea that works with what’s already well implemented in OpenType: normal glyphs. Each glyph has one or more accompanying color glyphs, and when they are overlapped they create the final colored glyph. It doesn’t quite have the versatility of PNG images or SVG — it’s just solid shapes on top of each other. They already released their own implementation in Windows 8.1, and Mozilla is working on supporting this in Firefox.</p><br><br>
+
+					<h2>Mozilla and Adobe’s SVG (SVG table)</h2><br>
+					<p>These two web giants got together for the most ambitious format: SVG in OpenType. </p><br><br>
+
+					</div>
+					<a href="index.html"><img id="close-button" src="images/arrow-white.png"></a>
+				</div>
+				
+			</div>
+			</div>
+
+			<div class="gradient-bar-v">
+			</div>
+<!-- right column -->
+			<div class="right-column">
+				<div class="titles">
+					<a href="part-1.html">
+					<div class="title-1">
+						<h1>01</h1>
+						<h1>History of<br>Color Fonts</h1>
+					</div>
+					</a>
+					<a href="part-2.html">
+					<div class="title-2">
+						<h1>02</h1>
+						<h1>Color Fonts<br>on the Web</h1>
+					</div>
+					</a>
+					<div class="title-2-subtitles">
+						<h1 id="hidden">02</h1>
+						<ul>
+							<a href="part-2-1.html"><li id="subtitle-1">What's Opentype-SVG?</li></a>
+							<a href="part-2-2.html"><li id="subtitle-2">Four Proposals</li></a>
+							<a href="part-2-3.html"><li id="subtitle-3">OpenType-SVG vs. COLR/CPAL</li></a>
+						</ul>
+					</div>
+					<a href="part-3.html">
+					<div class="title-3">
+						<h1>03</h1> 
+						<h1>Creative<br>Possibilities</h1>
+					</div>
+					</a>
+					<a href="part-4.html">
+					<div class="title-4">
+						<h1>04</h1> 
+						<h1>Considerations<br>before Use</h1>
+					</div>
+					</a>
+					<a href="part-5.html">
+					<div class="title-5">
+						<h1>05</h1> 
+						<h1>Index</h1>
+					</div>
+					</a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+
+
+
+
+
+</body>
+</html>

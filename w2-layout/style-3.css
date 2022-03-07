@@ -31,10 +31,8 @@ h3{
 	width: 80%;
 	/*background-color: lightgray;*/
 	margin: auto;
-	margin-top: 10vh;
 	display:grid;
 	grid-template-columns: 1fr 1fr;
-	overflow: auto;
 }
 
 img{
@@ -43,8 +41,18 @@ img{
 	position: sticky;
 }
 
-.body-text{
-	margin-left: 10px;
-	margin-right: 10px;
+.image{
+	margin-top: 10vh;
 }
 
+.body-text{
+	height: 100vh;
+	margin-left: 10px;
+	margin-right: 10px;
+	overflow: scroll;
+	margin-top: 10vh;
+}
+
+@media screen and (max-width: 1200px){
+	
+}

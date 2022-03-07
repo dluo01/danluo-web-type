@@ -1,0 +1,209 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+    src: url('fonts/BradleyInitialsDJR-Seafoam.woff2') format("woff2"),
+         url('fonts/BradleyInitialsDJR-Seafoam.woff') format("woff");
+    font-family:'Bradley Initials DJR Seafoam Web';
+    }
+
+@font-face {
+    src: url('fonts/BradleyInitialsDJR-LilacBlossom.woff2') format("woff2"),
+         url('fonts/BradleyInitialsDJR-LilacBlossom.woff') format("woff");
+    font-family: 'Bradley Initials DJR LilacBlossom Web';
+    }
+
+@font-face {
+    src: url('fonts/BradleyInitialsDJR-BumbleBee.woff2') format("woff2"),
+         url('fonts/BradleyInitialsDJR-BumbleBee.woff') format("woff");
+    font-family: 'Bradley Initials DJR BumbleBee Web';
+    }
+
+@font-face {
+    src: url('fonts/BradleyInitialsDJR-ClassicRed.woff2') format("woff2"),
+         url('fonts/BradleyInitialsDJR-ClassicRed.woff') format("woff");
+    font-family: 'Bradley Initials DJR ClassicRed Web';
+    }
+
+@font-face {
+    src: url('fonts/BradleyInitialsDJR-RoyalPurple.woff2') format("woff2"),
+         url('fonts/BradleyInitialsDJR-RoyalPurple.woff') format("woff");
+    font-family: 'Bradley Initials DJR RoyalPurple Web';
+    }
+
+@font-face {
+    src: url('fonts/BradleyDJRVariable-VF.woff2') format("woff2"),
+         url('fonts/BradleyDJRVariable-VF.woff') format("woff");
+    font-family: 'BradleyDJRVariableWeb';
+    }
+
+
+.container{
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 1fr 8px 1fr;
+	overflow: hidden;
+}
+
+.gradient-bar-v{
+	width: 8px;
+	height: 100vh;
+	background: rgb(53,163,236);
+	background: linear-gradient(to bottom, rgba(53,163,236,1) 0%, rgba(57,229,162,1) 16%, rgba(211,246,15,1) 32%, rgba(254,168,6,1) 48%, rgba(248,104,98,1) 64%, rgba(219,63,197,1) 80%, rgba(100,92,224,1) 100%);
+}
+
+/*right column*/
+
+.right-column{
+	overflow: scroll;
+}
+
+.titles{
+	display: grid;
+	grid-template-rows:repeat(6 1fr);
+	grid-row-gap: 0.2em;
+	margin-top: 4vh;
+	overflow: scroll;
+}
+
+.title-1,.title-2,.title-3,.title-4,.title-5,.title-2-subtitles{
+	display: inline-flex;
+	margin-bottom: 2vh;
+}
+
+
+h1{
+	font-family:'Bungee Outline', cursive;
+	font-size: 70px;
+	margin-left: 1.8vw;
+}
+
+.title-1 h1:hover{
+	font-family:'Bungee', cursive;
+}
+.title-2 h1{
+	font-family:'Bungee', cursive;
+}
+.title-3 h1:hover{
+	font-family:'Bungee', cursive;
+}
+.title-4 h1:hover{
+	font-family:'Bungee', cursive;
+}
+.title-5 h1:hover{
+	font-family:'Bungee', cursive;
+}
+
+a{
+	all: unset;
+}
+
+.title-1{
+	color:#F15A7B ;
+}
+
+.title-2{
+	color:#FD8D26;
+}
+
+.title-3{
+	color:#E0EE08;
+}
+
+.title-4{
+	color:#6CF66C;
+}
+
+.title-5{
+	color:#2ADAC5;
+	margin-bottom: 6vh;
+}
+
+.title-2-subtitles{
+	font-family:'Bungee Outline', cursive;
+	font-size: 30px;
+	color:#FD8D26;
+	margin-bottom: 2vh;
+}
+
+#hidden{
+	visibility: hidden;
+}
+
+li{
+	margin-bottom: 0.5vh;
+	list-style: none;
+	margin-left: 1.8vw;
+}
+
+.title-2-subtitles li:hover{
+	font-family:'Bungee', cursive;
+	transform: translateX(3vw);
+}
+
+.title-2-subtitles #subtitle-1{
+	font-family:'Bungee', cursive;
+	transform: translateX(3vw);
+}
+
+/*left-column*/
+
+.left-column-wrapper{
+	background-color:#FD8D26;
+	overflow: scroll;
+}
+
+.left-column-container{
+	margin-top: 5vh;
+	margin-left: 3vw;
+	margin-right: 2vw;
+	margin-bottom: 10vh;
+}
+
+.body-text,.body-image{
+	display: grid;
+	grid-template-columns:2.5fr 1fr;
+	grid-column-gap: 2vw;
+	padding-bottom: 4vh;
+}
+
+.body-text{
+	font-family:"Fredoka", sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.4em;
+	color: white;
+}
+
+.body-text #close-button{
+	width: 2vw;
+	position: relative;
+	left: 9vw;
+	top: 0vh;
+}
+
+.body-image img{
+	width: 100%;
+}
+
+.body-image p{
+	font-family:"Fredoka", sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 1.4em;
+	color: white;
+}
+
+#click:hover{
+	transform: translateX(1vw);
+}
+
+
+
+
+
+
+
+
