@@ -107,7 +107,7 @@ a{
 	position: absolute;
 	right: 8vw;
 	bottom: 10vw;
-	/*display: none;*/
+	display: none;
 }
 
 .samples{
@@ -273,6 +273,46 @@ a{
 
 	.samples{
 	margin-top: 10vh;
+	margin-left: 8vw;
+	margin-right: 8vw;
+	margin-bottom: 5vh;
+	display: grid;
+	grid-template-columns:repeat(3, 1fr);
+	grid-template-rows:repeat(4, 1fr);
+	grid-column-gap: 4vw;	
+	grid-row-gap: 1.5vw;
+	animation: floating 3s infinite ease;	
+}
+
+	@keyframes floating{
+		0% { transform: translate(0,  0px); }
+    	50%  { transform: translate(0, 15px); }
+    	100%   { transform: translate(0, 0px); } 
+	}
+
+
+	#hidden{
+	display: block;
+}
+
+	#forward-button{
+	display: block;
+}
+
+
+}
+
+
+@media screen and (max-width: 375px){
+	.container{
+	grid-template-columns:100vw 0 0;
+}
+	.gradient-bar-v,.right-column-wrapper{
+	 	display: none;
+	}
+
+	.samples{
+	margin-top: 6vh;
 	margin-left: 8vw;
 	margin-right: 8vw;
 	margin-bottom: 5vh;
