@@ -3,43 +3,6 @@
 	padding: 0;
 }
 
-@font-face {
-    src: url('fonts/BradleyInitialsDJR-Seafoam.woff2') format("woff2"),
-         url('fonts/BradleyInitialsDJR-Seafoam.woff') format("woff");
-    font-family:'Bradley Initials DJR Seafoam Web';
-    }
-
-@font-face {
-    src: url('fonts/BradleyInitialsDJR-LilacBlossom.woff2') format("woff2"),
-         url('fonts/BradleyInitialsDJR-LilacBlossom.woff') format("woff");
-    font-family: 'Bradley Initials DJR LilacBlossom Web';
-    }
-
-@font-face {
-    src: url('fonts/BradleyInitialsDJR-BumbleBee.woff2') format("woff2"),
-         url('fonts/BradleyInitialsDJR-BumbleBee.woff') format("woff");
-    font-family: 'Bradley Initials DJR BumbleBee Web';
-    }
-
-@font-face {
-    src: url('fonts/BradleyInitialsDJR-ClassicRed.woff2') format("woff2"),
-         url('fonts/BradleyInitialsDJR-ClassicRed.woff') format("woff");
-    font-family: 'Bradley Initials DJR ClassicRed Web';
-    }
-
-@font-face {
-    src: url('fonts/BradleyInitialsDJR-RoyalPurple.woff2') format("woff2"),
-         url('fonts/BradleyInitialsDJR-RoyalPurple.woff') format("woff");
-    font-family: 'Bradley Initials DJR RoyalPurple Web';
-    }
-
-@font-face {
-    src: url('fonts/BradleyDJRVariable-VF.woff2') format("woff2"),
-         url('fonts/BradleyDJRVariable-VF.woff') format("woff");
-    font-family: 'BradleyDJRVariableWeb';
-    }
-
-
 .container{
 	height: 100vh;
 	display: grid;

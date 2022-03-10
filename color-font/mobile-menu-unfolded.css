@@ -17,14 +17,23 @@
 	background: linear-gradient(to bottom, rgba(53,163,236,1) 0%, rgba(57,229,162,1) 16%, rgba(211,246,15,1) 32%, rgba(254,168,6,1) 48%, rgba(248,104,98,1) 64%, rgba(219,63,197,1) 80%, rgba(100,92,224,1) 100%);
 }
 
-/*right column right column right column right column right column right column right column right column*/
+/*right column right column right column right column right column right column right column*/
+
+#arrow-backward{
+	width: 10vw;
+	position: absolute;
+	right: 8vw;
+	bottom: 10vw;
+	display: none;
+	z-index: 100;
+}
 
 .right-column{
 	overflow: scroll;
+	max-width: 50vw;
 }
 
 .titles{
-	max-width: 50vw;
 	display: grid;
 	grid-template-rows:repeat(6 1fr);
 	grid-row-gap: 0.2em;
@@ -48,7 +57,7 @@ h1{
 .title-1 h1:hover{
 	font-family:'Bungee', cursive;
 }
-.title-2 h1{
+.title-2 h1:hover{
 	font-family:'Bungee', cursive;
 }
 .title-3 h1:hover{
@@ -83,7 +92,6 @@ a{
 
 .title-5{
 	color:#2ADAC5;
-	margin-bottom: 6vh;
 }
 
 .title-2-subtitles{
@@ -93,7 +101,7 @@ a{
 	margin-bottom: 2vh;
 }
 
-#hidden{
+.hidden{
 	visibility: hidden;
 }
 
@@ -108,58 +116,95 @@ li{
 	transform: translateX(3vw);
 }
 
-.title-2-subtitles #subtitle-1{
-	font-family:'Bungee', cursive;
-	transform: translateX(3vw);
-}
 
-/*left-column left-column left-column left-column left-column left-column left-column left-column*/
-
-.left-column-wrapper{
-	background-color:#FD8D26;
-	overflow: scroll;
-}
+/*left column left column left column left column left column left column left column*/
 
 .left-column-container{
-	margin-top: 5vh;
+	overflow: hidden;
+}
+
+.samples{
+	margin-top: 6vh;
 	margin-left: 3vw;
 	margin-right: 3vw;
 	margin-bottom: 5vh;
-}
-
-#close-button{
-	width: 3vw;
-	position: fixed;
-	left: 44vw;
-}
-
-.cell{
 	display: grid;
-	grid-template-columns:2.5fr 1fr;
-	grid-column-gap: 2vw;
-	margin-bottom: 5vh;
+	grid-template-columns:repeat(5, 1fr);
+	grid-template-rows:repeat(2, 1fr);
+	grid-column-gap: 0.5vw;
 }
 
-.cell img{
+.samples img{
 	width: 100%;
 }
 
-.cell p{
-	font-family:"Fredoka", sans-serif;
+#hidden{
+	display: none;
+}
+
+.left-column-container p{
+	font-family: "Fredoka", sans-serif;
 	font-size: 20px;
 	font-weight: 400;
 	line-height: 1.4em;
-	color: white;
-}
-
-.cell .caption{
-	font-size: 15px;
-	font-weight: 300;
+	color: black;
+	margin-left: 3vw;
 }
 
 
-#click:hover{
-	transform: translateX(1vw);
+.hover-1,.hover-2,.hover-3,.hover-4,.hover-5,.hover-6,.hover-7,.hover-8,.hover-9,.hover-10{
+	transform: translateY(0vh);
+	transition: transform 100ms ease;
+}
+
+.hover-1:hover,.hover-2:hover,.hover-3:hover,.hover-4:hover,.hover-5:hover,.hover-6:hover,.hover-7:hover,.hover-8:hover,.hover-9:hover,.hover-10:hover{
+	transform: translateY(1vh);
+}
+
+
+.text-1,.text-2,.text-3,.text-4,.text-5,.text-6,.text-7,.text-8,.text-9,.text-10{
+	position: absolute;
+	bottom: 10vh;
+	opacity: 0;
+}
+.text-1{
+	z-index: 10;
+}
+
+.text-2{
+	z-index: 20;
+}
+
+.text-3{
+	z-index: 30;
+}
+
+.text-4{
+	z-index: 40;
+}
+
+.text-5{
+	z-index: 50;
+}
+
+.text-6{
+	z-index: 60;
+}
+
+.text-7{
+	z-index: 70;
+}
+
+.text-8{
+	z-index: 80;
+}
+
+.text-9{
+	z-index: 90;
+}
+
+.text-10{
+	z-index: 100;
 }
 
 /*responsive responsive responsive responsive responsive responsive*/
@@ -212,28 +257,9 @@ li{
 	}
 }
 
-/*when two sub-columns on the left side turns into one*/
 @media screen and (max-width: 1200px){
 	h1{
 		font-size: 42px;
-	}
-	.cell{
-		display: grid;
-		grid-template-columns:1fr;
-		margin-bottom: 5vh;
-	}
-
-	.left-column-container{
-		margin-top: 5vh;
-		margin-left: 3vw;
-		margin-right: 8vw;
-		margin-bottom: 5vh;
-	}
-
-	#close-button{
-	width: 3vw;
-	position: fixed;
-	left: 44vw;
 	}
 }
 
@@ -249,40 +275,43 @@ li{
 	}
 }
 
-/*tablet, when the right column disappears*/
+/*tablet: only the right column*/
 @media screen and (max-width: 768px){
 	.container{
-		grid-template-columns:100vw 0 0;
+		grid-template-columns:0 0 100vw;
 	}
-	.gradient-bar-v,.right-column-wrapper{
+	.left-column-container,.gradient-bar-v{
 	 	display: none;
 	}
 
-	.left-column-container{
-		margin-top: 5vh;
-		margin-left: 5vw;
-		margin-right: 16vw;
-		margin-bottom: 5vh;
+	h1{
+		font-family:'Bungee', cursive;
+		font-size: 49px;
 	}
 
-	#close-button{
-	width: 5vw;
-	position: fixed;
-	left: 90vw;
+	.titles{
+	grid-row-gap: 1em;
+	}
+
+	.titles{
+		margin-left: 3.8vw;
+	}
+
+	#arrow-backward{
+	display: block;
 	}
 }
 
 @media screen and (max-width: 600px){
-	
+	h1{
+		font-size: 40px;
+	}
 }
+
 
 @media screen and (max-width: 425px){
-	
+	h1{
+		font-size: 30px;
+	}
 }
-
-
-
-
-
-
 
