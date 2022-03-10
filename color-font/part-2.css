@@ -215,6 +215,27 @@ li{
 	font-family: 'Bradley Initials DJR RoyalPurple Web';
 }
 
+.mobile-addition h3{
+	font-family:'Bungee', cursive;
+	font-size: 20px;
+	color:white;
+	margin-bottom:2vh;
+}
+
+.subtitles{
+	display: inline-flex;
+}
+
+#arrow{
+	width: 20px;
+	height: 20px;
+	padding-right: 1vw;
+}
+
+.mobile-addition{
+	display: none;
+}
+
 
 /*responsive responsive responsive responsive responsive responsive*/
 
@@ -289,6 +310,11 @@ li{
 	position: fixed;
 	left: 44vw;
 	}
+
+	.mobile-addition{
+	display: block;
+}
+
 }
 
 @media screen and (max-width: 1024px){
@@ -334,6 +360,11 @@ li{
 	
 }
 
+@media screen and (max-width: 375px){
+	h1{
+		font-size: 26px;
+	}
+}
 
 
 
