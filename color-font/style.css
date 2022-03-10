@@ -249,17 +249,13 @@ a{
 	}
 }
 
+/*tablet: only the left column*/
 @media screen and (max-width: 768px){
 	.container{
 		grid-template-columns:100vw 0 0;
 	}
 	.gradient-bar-v,.right-column-wrapper{
 	 	display: none;
-	}
-	.samples-wrapper{
-		display: flex;
-		align-items: center;
-		justify-content: center;
 	}
 	.samples{
 		margin-top: 3vh;
@@ -274,10 +270,6 @@ a{
 		animation: floating 3s infinite ease;	
 	}
 
-	.samples img{
-		width: 100%;
-	}
-
 	@keyframes floating{
 		0% { transform: translate(0,  0px); }
     	50%  { transform: translate(0, 15px); }
@@ -289,18 +281,8 @@ a{
 	}
 }
 
+/*when the sample arrangement changes*/
 @media screen and (max-width: 600px){
-	.container{
-		grid-template-columns:100vw 0 0;
-	}
-	.gradient-bar-v,.right-column-wrapper{
-	 	display: none;
-	}
-	.samples-wrapper{
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
 	.samples{
 		margin-top: 3vh;
 		margin-left: 8vw;
@@ -314,61 +296,13 @@ a{
 		animation: floating 3s infinite ease;	
 	}
 
-	.samples img{
-		width: 100%;
-	}
-
-	@keyframes floating{
-		0% { transform: translate(0,  0px); }
-    	50%  { transform: translate(0, 15px); }
-    	100%   { transform: translate(0, 0px); } 
-	}
-
 	#hidden{
 	display: block;
 	}
 
-	#arrow-forward{
-	display: block;
-	}
 }
 
 @media screen and (max-width: 425px){
-	.container{
-		grid-template-columns:100vw 0 0;
-	}
-	.gradient-bar-v,.right-column-wrapper{
-	 	display: none;
-	}
-	.samples-wrapper{
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-	.samples{
-		margin-top: 3vh;
-		margin-left: 8vw;
-		margin-right: 8vw;
-		margin-bottom: 3vh;
-		display: grid;
-		grid-template-columns:repeat(3, 1fr);
-		grid-template-rows:repeat(4, 1fr);
-		grid-column-gap: 4vw;	
-		grid-row-gap: 1.5vw;
-		animation: floating 3s infinite ease;	
-	}
-	@keyframes floating{
-		0% { transform: translate(0,  0px); }
-    	50%  { transform: translate(0, 15px); }
-    	100%   { transform: translate(0, 0px); } 
-	}
 
-	#hidden{
-	display: block;
-	}
-
-	#arrow-forward{
-	display: block;
-	}
 }
 
