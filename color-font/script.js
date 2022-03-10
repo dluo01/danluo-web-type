@@ -5,5 +5,4 @@ $(document).ready
 	function infoToggle(){
 		$(".text-1").show();
 	}
-
 });
