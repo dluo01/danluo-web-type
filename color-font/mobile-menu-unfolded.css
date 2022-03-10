@@ -309,7 +309,7 @@ li{
 }
 
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 500px){
 	h1{
 		font-size: 30px;
 	}
@@ -318,6 +318,24 @@ li{
 @media screen and (max-width: 375px){
 	h1{
 		font-size: 26px;
+	}
+}
+
+@media screen and (max-width: 320px){
+	h1{
+		font-size: 23px;
+	}
+}
+
+@media screen and (max-width: 280px){
+	h1{
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 245px){
+	h1{
+		font-size: 18px;
 	}
 }
 
