@@ -40,19 +40,19 @@ h1{
 	margin-left: 1.8vw;
 }
 
-.title-1 h1:hover{
+.title-1:hover  h1{
 	font-family:'Bungee', cursive;
 }
-.title-2 h1:hover{
+.title-2:hover  h1{
 	font-family:'Bungee', cursive;
 }
-.title-3 h1:hover{
+.title-3:hover  h1{
 	font-family:'Bungee', cursive;
 }
 .title-4 h1{
 	font-family:'Bungee', cursive;
 }
-.title-5 h1:hover{
+.title-5:hover  h1{
 	font-family:'Bungee', cursive;
 }
 
@@ -131,6 +131,17 @@ a{
 	font-size: 15px;
 	font-weight: 300;
 }
+
+#click{
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 1.4em;
+}
+
+#click:hover{
+	transform: translateX(1vw);
+}
+
 
 /*responsive responsive responsive responsive responsive responsive*/
 

@@ -36,10 +36,10 @@
 				<div class="cell">
 					<div>
 						<h2>These fonts can be huge.</h2>
-						<p>A color font file is generally larger than a regular font file, and a lot more when the font embeds high-resolution bitmap characters. Whereas fonts usually weigh tens to a few hundred kilobytes, color vector fonts can reach hundreds of kilobytes to a couple megabytes depending on their visual complexity. Color bitmap fonts may range from a few megabytes to tens of megabytes, and sizes increase when multiple color font formats are embedded in a single file.</p><br><br><br>
+						<p>A color font file is generally larger than a regular font file, and a lot more when the font embeds high-resolution bitmap characters. Whereas fonts usually weigh tens to a few hundred kilobytes, color vector fonts can reach hundreds of kilobytes to a couple megabytes depending on their visual complexity. Color bitmap fonts may range from a few megabytes to tens of megabytes, and sizes increase when multiple color font formats are embedded in a single file.</p><br><br>
 
 						<h2>Support in different browsers.</h2>
-						<p>You’ll have to serve up an individual font file for each technique. Today this’d mean two font files, one for IE11 on Windows 8.1 and newer, and one for Firefox. I don’t think there’s a way to do feature testing for this, so you’d either have to sniff user agent strings, or serve them both to each visitor. Theoretically the proposals could live together inside one file, but I haven’t found any tools to do this with yet. Which version the browser would choose when it’d support them all remains to be seen.</p>
+						<p>When the browser doesn't support the file type, the font will fall back to B&W. Therefore, a fallback for color font is pretty important.</p>
 					</div>
 					<div>
 						<p  class="caption"></p>
@@ -52,33 +52,33 @@
 						<img src="images/consideration-2.png">
 					</div>
 					<div>
-						<p class="caption">Image source</p>
+						<p class="caption">Sheets from colorfonts.wtf.<br>SVG is great for use in design apps, while COLR has wider browser support.</p>
 					</div>
 				</div>
 
 				<div class="cell">
 					<div>
 						<h2>Colors are determined by the font maker.</h2>
-						<p>The color scheme is hardcoded in the font. This might not be a big problem for emoji, but if you’re going to use a fancy colored font, you want it to fit the design and style of the rest of your website. One might see how Microsoft’s solution could perhaps be addressed from CSS (maybe with an extension to CSS like color-layer1: red;) — but that’s assuming the font shares one palette. If each character has its own set of colors, like emoji, this is going to get messy fast. And changing color of PNGs or SVGs seems nearly impossible. Some color fonts’ designers provide customized color choices or predesigned alternatives.</p><br><br>
+						<p>The color scheme is hardcoded in the font. This might not be a big problem for emoji, but if you’re going to use a fancy colored font, you want it to fit the design and style of the rest of your website. One might see how Microsoft’s solution could perhaps be addressed from CSS (maybe with an extension to CSS like color-layer1: red;) — but that’s assuming the font shares one palette. If each character has its own set of colors, like emoji, this is going to get messy fast. And changing color of PNGs or SVGs seems nearly impossible. Some color fonts’ designers provide customized color choices or predesigned alternatives.</p><br>
 					</div>
 					<div>
-						<p class="caption">Some designers provide color fonts with a customizable color palette, but sometimes they are not easy to use.</p><br>
+						<p class="caption">Color fonts with a customizable color palette</p><br>
 						<a href="https://djr.com/pappardelle-party" target="_blank">
-							<p class="caption">>>> Pappardelle Party</p></a><br>
+							<p class="caption" id="click">>>> Pappardelle Party</p></a><br>
 						<a href="https://bixacolor.com/" target="_blank">
-							<p class="caption">>>> Bixa</p></a><br>
+							<p class="caption"id="click">>>> Bixa</p></a><br>
 						<a href="https://djr.com/merit-badge" target="_blank">
-							<p class="caption" >>>> Merit Badge</p></a><br>
+							<p class="caption" id="click" >>>> Merit Badge</p></a><br>
 					</div>
 				</div>
 
 				<div class="cell">
 					<div>
 						<h2>Render performance.</h2>
-						<p>Getting that font to show up might be CPU intensive, especially on mobile. Implementations will surely be optimized over time, but for now, this Mozilla test page seems to be very slow on my PC.</p><br><br><br>
+						<p>Getting that font to show up might be CPU intensive, especially on mobile. Implementations will surely be optimized over time.</p><br><br>
 
 						<h2>Accessibility.</h2>
-						<p>Color can spice up your design, and it can add meaning to text or UI elements — but only when done well. Multicolor fonts can reduce the legibility of text, especially when the human using your website is color blind. There is currently no way to force the multicolor font to use its non-color fallback.</p><br><br><br>
+						<p>Color can spice up your design, and it can add meaning to text or UI elements — but only when done well. Multicolor fonts can reduce the legibility of text, especially when the human using your website is color blind. There is currently no way to force the multicolor font to use its non-color fallback.</p><br><br>
 					</div>
 					<div>
 						<p  class="caption"></p>

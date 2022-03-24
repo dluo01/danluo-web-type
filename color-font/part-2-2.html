@@ -35,24 +35,55 @@
 				<a href="part-2.html"><img id="close-button" src="images/arrow-white.png"></a>
 				<div class="cell">
 					<div>
-						<p>The OpenType-SVG font format was initially designed by Mozilla & Adobe and became an industry standard in early 2016, when other big players including Microsoft & Google agreed on a single format to support color fonts.<br><br>
+						<p>The OpenType-SVG font format was initially designed by Mozilla & Adobe and became an industry standard in early 2016, when other big players including Microsoft & Google agreed on a single format to support color fonts.
+						</p>
+					</div>
+				</div>
+				<div class="cell">
+					<div>
+						<p>All of them (including Apple) have previously developed and implemented their own proprietary color formats to display emojis on their operating systems, while many other companies built other custom color font technologies for the gaming, video or print industries.
 
-						All of them (including Apple) have previously developed and implemented their own proprietary color formats to display emojis on their operating systems, while many other companies built other custom color font technologies for the gaming, video or print industries.
-						</p><br><br>
-
+						Therefore, the emojis that we use on our smartphones and computers are actually shipped as color fonts and they are predecessors of color fonts.
+						</p>
+					</div>
+					<div>
+						<a href="https://css-tricks.com/it-all-started-with-emoji-color-typography-on-the-web/" target="_blank"><p class="caption" id="click">>>> It All Started With Emoji: Color Typography on the Web by Ollie Williams</p></a>
+					</div>
+				</div>
+				<div class="cell">
+					<div>
+						<img src="images/twemoji-font.png"><br><br><br>
 						<img src="images/big-players.png"><br><br><br>
+					</div>
+					<div>
+						<p class="caption">Twemoji: Open source emoji font by Twitter</p>
+					</div>
+				</div>
+					<div class="cell">
+						<div>
 
 						<h2>Google’s PNG images (CBDT/CBLC table)</h2><br>
 						<p>Google proposed an implementation which uses PNG images for the glyphs. The glyphs are simply replaced by good old images. This works fine for smaller icons, and obviously brings all the creative freedom of bitmap images, but doesn’t scale very well. Blow up a glyph big enough, and you’ll encounter blurred pixels. It’s also going to be hard, if not impossible, to change the color of the glyphs with CSS. Interesting is that they specify that there should be no GLYF table in their implementation — the table that holds the uncolored “normal” glyphs — so it looks like there’s no fallback for when this format isn’t supported.</p><br><br>
 
 						<h2>Apple’s PNG images (SBIX table)</h2><br>
-						<p>Apple proposed a proprietary system similar to Google’s. It uses PNG images, so it runs into the same scaling problems. Support for this format is in iOS4+ and OSX 10.7+. This spec hasn’t officially been published by Apple and doesn’t seem to be supported outside the Apple ecospace, and as far as I understand, it’s not been submitted to become an official part of the OpenType format.</p><br><br>
+						<p>Apple proposed a proprietary system similar to Google’s. It uses PNG images, so it runs into the same scaling problems. Support for this format is in iOS4+ and OSX 10.7+. This spec hasn’t officially been published by Apple and doesn’t seem to be supported outside the Apple ecospace.</p><br><br>
 
 						<h2>Microsoft’s overlapped glyphs (COLR/CPAL table)</h2><br>
-						<p>Microsoft proposed a simple idea that works with what’s already well implemented in OpenType: normal glyphs. Each glyph has one or more accompanying color glyphs, and when they are overlapped they create the final colored glyph. It doesn’t quite have the versatility of PNG images or SVG — it’s just solid shapes on top of each other. They already released their own implementation in Windows 8.1, and Mozilla is working on supporting this in Firefox.</p><br><br>
+						<p>Microsoft proposed a simple idea that works with what’s already well implemented in OpenType: normal glyphs. Each glyph has one or more accompanying color glyphs, and when they are overlapped they create the final colored glyph. It doesn’t quite have the versatility of PNG images or SVG — it’s just solid shapes on top of each other.</p><br><br>
 
 						<h2>Mozilla and Adobe’s SVG (SVG table)</h2><br>
 						<p>These two web giants got together for the most ambitious format: SVG in OpenType. </p><br><br>
+
+						<h2>Summary</h2><br>
+						<ol>
+							<li><p>SBIX (Apple)<br> – Bitmap-based with native support in macOS and iOS</p><br></li>
+							<li><p>COLR (Microsoft)<br> – Vector-based with Windows 8.1+ native support</p><br></li>
+							<li><p>CBDT (Google)<br> – Bitmap-based with native support in Android</p><br></li>
+							<li><p>OpenType-SVG (Adobe and Mozilla)<br> – Supports vector shapes as well as bitmap images</p><br></li>
+						</ol><br><br>
+
+
+						<img src="images/system-support.png"><br><br><br>
 					</div>
 					<div>
 						<p  class="caption"></p>

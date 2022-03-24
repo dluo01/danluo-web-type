@@ -35,12 +35,44 @@
 				<a href="part-2.html"><img id="close-button" src="images/arrow-white.png"></a>
 				<div class="cell">
 					<div>
-						<p>Opentype-SVG uses SVG markup language, a vector graphics file format that is widely used on the Web and provides rich graphic capabilities. The SVG description for a color glyph is a complete, integrated piece. No additional glyphs are required for the SVG description, which makes it beneficial for fonts that support a large number of characters. In comparison, in the COLR table, a color glyph required components that have separated glyph IDs.</p><br><br>
+						<p>Opentype-SVG uses SVG markup language, a vector graphics file format that is widely used on the Web and provides rich graphic capabilities. The SVG description for a color glyph is a complete, integrated piece. No additional glyphs are required for the SVG description, which makes it beneficial for fonts that support a large number of characters. In comparison, in the COLR table, a color glyph required components that have separated glyph IDs.</p>
+					</div>
+				</div>
 
+				<div class="cell">
+					<div>
+						<br>
 						<img src="images/svg-1.png"><br><br><br>
-						<img src="images/svg-2.png"><br><br><br>
+						<img src="images/svg-2.png">
+					</div>
+					<div>
+						<br>
+						<a href="https://github.com/adobe-type-tools/opentype-svg" target="_blank"><p class="caption" >The diagram by Miguel Sousa clearly shows how an Opentype-SVG font is made.</p></a>
+					</div>
+				</div>
+				<div class="cell">
+					<div>
+						<br>
+						<p>Opentype-SVG usually has a larger file size compared to COLR and other color formats.</p>
+					</div>
+					<div>
+						<p class="caption"></p>
+					</div>
+				</div>
 
-						<p>Usually, Opentype-SVG is in a great position to become a golden standard in the four big players’ competition because there are three operating systems supporting it(Windows 10+, IOS 12+, macOS 10.14+). However, it usually has a larger file size compared to COLR and other color formats and fails to support variable glyph outlines. When making variable color fonts, Microsoft’s COLR/CPAL system is the only option until now, as the others are incompatible with the interpolation(variable outlines).</p><br><br>
+				<div class="cell">
+					<div>
+						<p>Opentype-SVG can't support variable glyph outlines. When making variable color fonts, Microsoft’s COLR/CPAL system is the only option right now, as the others are incompatible with the interpolation.</p>
+					</div>
+					<div>
+						<a href="https://www.typearture.com/howdotheywork/" target="_blank">
+					<p class="caption" id="click">>>> Arthur Reinders Folmer's writeup of variable color fonts</p></a>
+					</div>
+				</div>
+
+				<div class="cell">
+					<div>
+						<p>Being a complete integrated piece brings Opentype-SVG another drawback. Since the colors are ‘hard-coded’ into the font, there is no possibility to access them with css. Hopefully, this might change with the implementation of a COLR/ CPAL table.</p><br><br>
 					</div>
 					<div>
 						<p class="caption"></p>
