@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "wavy";
+  src: url("Wavy-wavyVF.woff2") format("woff2");
+}
+
+
+p{
+	font-family: wavy;
+	font-size: 200px;
+	padding-left: 10vw;
+	font-variation-settings: 'wght' 100;
+	animation: transformation 2s infinite alternate;
+
+}
+
+@keyframes transformation{
+	from{
+		font-variation-settings: 'wght' 10;
+	}
+	to{
+		font-variation-settings: 'wght' 100;
+	}
+}
