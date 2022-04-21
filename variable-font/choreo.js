@@ -1,29 +1,28 @@
 $(document).ready(function() {
-		$.getScript('cursor.js');
 
-		$(window).scroll(function(){
-		if ($('.design-concept').offset().top < $(window).scrollTop()+40 && $(window).scrollTop()+30 <$('.ballet-dancers').offset().top){
-			$('.navi-content').hover(function(){
-				$(this).css({"color":"black"}).mouseout(function(){
-					$(this).css({"color":"#FFB6CE"})
-				});
-			});
-		}
-		else if ($('.buffer-1').offset().top < $(window).scrollTop()+40 && $(window).scrollTop()+30 <$('.buffer-2').offset().top){
-			$('.navi-content').hover(function(){
-				$(this).css({"color":"black"}).mouseout(function(){
-					$(this).css({"color":"#FFB6CE"})
-				});
-			});
-		}
-		else{
-			$('.navi-content').hover(function(){
-				$(this).css({"color":"white"}).mouseout(function(){
-					$(this).css({"color":"#FFB6CE"})
-				});
-			});
-		}
-	});
+	// 	$(window).scroll(function(){
+	// 	if ($('.design-concept').offset().top < $(window).scrollTop()+40 && $(window).scrollTop()+30 <$('.ballet-dancers').offset().top){
+	// 		$('.navi-content').hover(function(){
+	// 			$(this).css({"color":"black"}).mouseout(function(){
+	// 				$(this).css({"color":"#FFB6CE"})
+	// 			});
+	// 		});
+	// 	}
+	// 	else if ($('.buffer-1').offset().top < $(window).scrollTop()+40 && $(window).scrollTop()+30 <$('.buffer-2').offset().top){
+	// 		$('.navi-content').hover(function(){
+	// 			$(this).css({"color":"black"}).mouseout(function(){
+	// 				$(this).css({"color":"#FFB6CE"})
+	// 			});
+	// 		});
+	// 	}
+	// 	else{
+	// 		$('.navi-content').hover(function(){
+	// 			$(this).css({"color":"white"}).mouseout(function(){
+	// 				$(this).css({"color":"#FFB6CE"})
+	// 			});
+	// 		});
+	// 	}
+	// });
 
 	const wdthmax=100;
 	$('.title').mousemove(function(event){
