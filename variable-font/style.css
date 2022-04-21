@@ -363,7 +363,7 @@ body{
   position: absolute;
   left: 40vw;
   bottom: -11.8vw;
-  z-index: 100;
+  z-index: 110;
 }
 
 @keyframes transformation-k{
