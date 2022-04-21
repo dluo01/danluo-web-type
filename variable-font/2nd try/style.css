@@ -1,0 +1,462 @@
+@font-face {
+  font-family: "choreo";
+  src: url("Choreo-ChoreoVF.woff2") format("woff2");
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	/*cursor: url("images/pen.png"), pointer;*/
+}
+
+body{
+	font-variation-settings: 'wght' 0;
+	font-family: choreo;
+	background: white;
+}
+
+/*cover*//*cover*//*cover*//*cover*//*cover*//*cover*//*cover*//*cover*/
+.cover{
+	height: 120vh;
+}
+.cover.darkmode{
+	background: black;
+}
+
+.title{
+	color: black;
+	width: 90vw;
+	font-size: 22vw;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	font-variation-settings: 'wght' 0;
+	transition: 1s ease-in-out;
+}
+
+.title.darkmode{
+	color: pink;
+	font-variation-settings: 'wght' 100;
+	transition: 1s ease-in-out;
+}
+
+.subtitle-1, .subtitle-2,.subtitle-3{
+	padding-left: 2vw;
+	padding-right: 2vw;
+	font-size: 12vw;
+	color:pink;
+	line-height:100%;
+	text-align: center;
+	position: relative;
+	top: 56vh;
+}
+
+.subtitle-2{
+	font-size: 6vw;
+}
+
+.subtitle-3{
+	font-size: 18vw;
+}
+
+
+.subtitle-1.darkmode, .subtitle-2.darkmode, .subtitle-3.darkmode{
+	color: white;
+	animation: transformation 1s infinite alternate;
+}
+
+@keyframes transformation{
+	0%{
+		font-variation-settings: 'wght' 0;
+	}
+	100%{
+		font-variation-settings: 'wght' 100;
+	}
+}
+
+.clickclick{
+	position: absolute;
+}
+
+/*
+.one{
+	font-size: 2.8vw;
+	top: 67vh;
+	left: 25vw;
+	transform: rotate(20deg);
+	animation: click-1 0.5s infinite alternate;
+}*/
+
+.two{
+	font-size: 2.5vw;
+	top: 60vh;
+	left: 14vw;
+	transform: rotate(30deg);
+	animation: click-2 0.5s infinite alternate;
+}
+
+.three{
+	font-size: 2.5vw;
+	top: 38vh;
+	right: 8vw;
+	transform: rotate(-15deg);
+	animation: click-3 0.5s infinite alternate;
+}
+
+/*@keyframes click-1{
+	0%{
+			transform: translateY(1vh) rotate(25deg);
+		}
+	100%{
+		transform: translateY(-1vh) rotate(10deg);
+	}
+}*/
+@keyframes click-2{
+	0%{
+			transform: translateY(1vh) rotate(20deg);
+		}
+		100%{
+		transform: translateY(-1vh) ;
+	}
+}
+@keyframes click-3{
+	0%{
+			transform: translateY(1vh) rotate(-15deg);
+		}
+	100%{
+		transform: translateY(-1vh);
+	}
+}
+
+.clickclick.darkmode{
+	color: pink;
+	animation: none;
+}
+
+/*page-1*//*page-1*//*page-1*//*page-1*//*page-1*//*page-1*//*page-1*/
+.page-1{
+	height: 100vh;
+	background: white;
+	font-size: 2vw;
+	display: grid;
+	grid-template-columns: 55% 45%;
+}
+.page-1.darkmode{
+	background: black;
+}
+
+.left-column{
+	color: black;
+	padding-top: 12vh;
+	font-variation-settings: 'wght' 0;
+	transition: 1s ease-in-out;
+}
+.left-column.darkmode{
+	color: white;
+	font-variation-settings: 'wght' 100;
+	transition: 1s ease-in-out;
+}
+.left-column,.right-column{
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+.right-column{
+	padding-top: 12vh;
+}
+
+.level-1{
+	font-size: 3.8vw;
+}
+
+.level-2{
+	line-height: 145%;
+}
+.page-1 img{
+	width: 75%;
+}
+
+
+/*page-2*//*page-2*//*page-2*//*page-2*//*page-2*//*page-2*//*page-2*/
+.page-2{
+	height: 100vh;
+	background: black;
+	color: white;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.page-2.darkmode{
+	background: white;
+	color: black;
+}
+
+/*big letter on the left*/
+
+.big-letter{
+	font-size: 900px;
+	position: absolute;
+	left: 6vw;
+	top: 203vh;
+	display: none;
+	color:pink;
+/*	--variable-axis: 0;
+	font-variation-settings: 'wght' var(--variable-axis);*/
+	animation: bigletters 2s infinite alternate;
+}
+
+@keyframes bigletters{
+	0%{
+		font-variation-settings: 'wght' 0;
+	}
+	100%{
+		font-variation-settings: 'wght' 100;
+	}
+}
+
+
+.big-letter-A{
+	z-index: 0;
+}
+
+.big-letter-B{
+	z-index: 1;
+}
+
+.big-letter-C{
+	z-index: 2;
+}
+/*music score on the right*/
+
+.staff-group{
+	height: 60vh;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr 0.5fr;
+	margin: auto;
+}
+
+.staff-small{
+	width: 45vw;
+	display: flex;
+	margin-bottom: 10vh;
+	margin-left: 5vw;
+}
+
+.left, .right{
+	background: white;
+	width: 0.1vw;
+	height: 8vh;
+}
+
+.left.darkmode, .right.darkmode{
+	background: black;
+}
+
+.middle{
+	width: 39.8vw;
+	display: grid;
+	grid-template-rows: 2vh 2vh 2vh 2vh;
+}
+
+.bar-small{
+		border-top: 0.2vh solid white;
+}
+.bar-small-last{
+		border-top: 0.2vh solid white;
+		border-bottom: 0.2vh solid white;
+}
+
+.bar-small.darkmode{
+	border-top:0.2vh solid black;
+}
+
+.bar-small-last.darkmode{
+	border-top:0.2vh solid black;
+	border-bottom:0.2vh solid black;
+}
+
+.alphabet{
+	font-size: 60px;
+	width: 40vw;
+	margin-left: 1vw;
+	display: inline-flex;
+	justify-content: space-around;
+	position: absolute;
+	z-index: 10;
+}
+
+.row1{
+	left: 54vw;
+	top: 240vh;
+}
+
+.row2{
+	z-index: 10;
+	left: 54vw;
+	top: 258vh;
+}
+
+.row3{
+	left: 54vw;
+	top: 278vh;
+}
+
+.row4{
+	left: 54vw;
+	top: 295vh;
+}
+
+.rotation{
+	color:pink;
+	font-variation-settings: 'wght' 100;
+	animation: rotate 0.5s infinite alternate;
+}
+
+@keyframes rotate{
+0%{
+		transform: translateY(1vh);
+		transform: rotate(10deg);
+	}
+	100%{
+		transform: translateY(-1vh);
+		transform: rotate(-10deg);
+	}
+}
+
+.element{
+	position: relative;
+	--variable-axis: 0;
+	font-variation-settings: 'wght' var(--variable-axis);
+}
+
+.A{
+	bottom: 3.5vh;
+}
+.B{
+	bottom: 2vh;
+}
+.C{
+	bottom: -3vh;
+}
+.D{
+	bottom: 0vh;
+}
+.E{
+	bottom: 2vh;
+}
+.F{
+	bottom: 4vh;
+}
+.G{
+	bottom: 0vh;
+}
+.H{
+	bottom: -1.5vh;
+}
+.I{
+	bottom: -3vh;
+}
+.J{
+	bottom: 0vh;
+}
+.K{
+	bottom: 4vh;
+}
+.L{
+	bottom: 0.5vh;
+}
+.M{
+	bottom: 2.5vh;
+}
+.N{
+	bottom: 4vh;
+}
+.O{
+	bottom: -3vh;
+}
+.P{
+	bottom: -1vh;
+}
+.Q{
+	bottom: -3vh;
+}
+.R{
+	bottom: 6.5vh;
+}
+.S{
+	bottom: 0vh;
+}
+.T{
+	bottom: -3.2vh;
+}
+.U{
+	bottom: 4vh;
+}
+.V{
+	bottom: -4vh;
+}
+.W{
+	bottom: 0vh;
+}
+.X{
+	bottom: 5.5vh;
+}
+.Y{
+	bottom: 3.5vh;
+}
+.Z{
+	bottom: -3.2vh;
+}
+.Z{
+	bottom: -3.2vh;
+}
+.comma{
+	bottom: 0vh;
+}
+.period{
+	bottom: -3.2vh;
+}
+.exclaim{
+	bottom: -3.2vh;
+}
+.question{
+	bottom: 0vh;
+}
+.ssquote{
+	bottom: 0vh;
+}
+.dsquote{
+	bottom: 2.5vh;
+}
+.scquote{
+	bottom: 0vh;
+}
+.dcquote{
+	bottom: -1.2vh;
+}
+.dash{
+	bottom: 1.2vh;
+}
+
+label{
+	font-size: 2vw;
+}
+.slider{
+	width: 45vw;
+	margin-bottom: 10vh;
+	margin-left: 5vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

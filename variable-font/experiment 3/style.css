@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "wavy";
+  src: url("Wavy-wavyVF.woff2") format("woff2");
+}
+
+
+
+@keyframes transformation{
+	from{
+		font-variation-settings: 'wght' 10;
+	}
+	to{
+		font-variation-settings: 'wght' 100;
+	}
+}
+
+p{
+	font-family: wavy;
+	font-size: 200px;
+	padding-left: 5vw;
+	font-variation-settings: 'wght' 100;
+	animation: transformation 2s infinite alternate;
+
+}
+
+.singleletter{
+	font-family: wavy;
+	font-size: 800px;
+	padding-left: 5vw;
+	font-variation-settings: 'wght' 100;
+	animation: transformation 2s infinite alternate;
+}
+
+
+/* 
+font-wariation-settings:'wght' var(--weight-axis)
+--weight-axis: 10; (to manipulate the setting indivisually)
+
+
+ */

@@ -1,0 +1,242 @@
+@font-face {
+  font-family: "choreo";
+  src: url("Choreo-ChoreoVF.woff2") format("woff2");
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: choreo;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+/*
+.title{
+	font-size: 22vw;
+	text-align: center;
+	font-variation-settings: 'wght' 0;
+	letter-spacing: -10px;
+	animation: transformation 2s infinite alternate;
+	display: block;
+	position: absolute;
+	z-index: 10;
+	left: 50%;
+	top: 40%;
+	transform: translate(-50%,-40%);
+}
+
+@keyframes transformation{
+	0%{
+		font-variation-settings: 'wght' 0;
+	}
+	100%{
+		font-variation-settings: 'wght' 100;
+	}
+}
+
+.bar{
+	background: black;
+	height: 0.5vh;
+	margin-bottom: 8vh;
+}
+
+.staff{
+	z-index: -10;
+	position: relative;
+	top: 26vh;
+}*/
+
+.cover{
+	background:white;
+	height: 100vh;
+}
+
+.staff{
+	position: relative;
+	top: 35vh;
+}
+
+.vbar{
+	background: black;
+	height: 34.5vh;
+	width: 0.5vw;
+	position: absolute;
+	left: 0;
+
+}
+.bar{
+	background: black;
+	height: 0.5vh;
+	margin-bottom: 8vh;
+}
+
+.title{
+	font-size: 22vw;
+	display: inline-flex;
+	color:black;
+	font-variation-settings: 'wght' 0;
+	animation: transformation 2s infinite alternate;
+}
+
+@keyframes transformation{
+	0%{
+		font-variation-settings: 'wght' 0;
+	}
+	100%{
+		font-variation-settings: 'wght' 100;
+	}
+}
+
+.title-C{
+	position: absolute;
+	top: 16vh;
+	left: 4vw;
+}
+
+.title-H{
+	position: absolute;
+	top: 7.5vh;
+	left: 19vw;
+}
+
+.title-O{
+	position: absolute;
+	top: 43vh;
+	left: 32vw;
+}
+
+.title-R{
+	position: absolute;
+	top: 23.5vh;
+	left: 47vw;
+}
+
+.title-E{
+	position: absolute;
+	top: 15vh;
+	left: 66vw;
+}
+
+.title-O2{
+	position: absolute;
+	top: 33vh;
+	right: 3vw;
+}
+
+.page-2{
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 50vw 50vw;
+
+}
+/*big letter on the left, big letter on the left, big letter on the left*/
+
+.big-letter{
+	font-size: 900px;
+	position: absolute;
+	left: 6vw;
+	top: 103vh;
+	display: none;
+}
+
+.big-letter-A{
+	z-index: 0;
+}
+
+.big-letter-B{
+	z-index: 1;
+}
+
+.big-letter-C{
+	z-index: 2;
+}
+/*music score on the right, music score on the right, music score on the right*/
+.staff-group{
+	height: 60vh;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	margin: auto;
+}
+
+.staff-small{
+	width: 45vw;
+	display: flex;
+	margin-bottom: 10vh;
+	margin-left: 5vw;
+}
+
+.left{
+	background: black;
+	width: 0.1vw;
+	height: 8vh;
+}
+
+.middle{
+	width: 39.8vw;
+	display: grid;
+	grid-template-rows: 2vh 2vh 2vh 2vh;
+}
+
+.right{
+	background: black;
+	width: 0.1vw;
+	height: 8vh;
+}
+.bar-small{
+		border-top: 0.2vh solid black;
+}
+.bar-small-last{
+		border-top: 0.2vh solid black;
+		border-bottom: 0.2vh solid black;
+}
+
+.alphabet-row1{
+	font-size: 50px;
+	width: 40vw;
+	margin-left: 1vw;
+	display: inline-flex;
+	justify-content: space-around;
+	position: absolute;
+	z-index: 10;
+	left: 54vw;
+	top: 120vh;
+}
+
+.alphabet-row2{
+	font-size: 50px;
+	width: 40vw;
+	margin-left: 1vw;
+	display: inline-flex;
+	justify-content: space-around;
+	position: absolute;
+	z-index: 10;
+	left: 54vw;
+	top: 138vh;
+}
+
+.alphabet-row3{
+	font-size: 50px;
+	width: 40vw;
+	margin-left: 1vw;
+	display: inline-flex;
+	justify-content: space-around;
+	position: absolute;
+	z-index: 10;
+	left: 54vw;
+	top: 158vh;
+}
+
+.alphabet-row4{
+	font-size: 50px;
+	width: 40vw;
+	margin-left: 1vw;
+	display: inline-flex;
+	justify-content: space-around;
+	position: absolute;
+	z-index: 10;
+	left: 54vw;
+	top: 175vh;
+}
+

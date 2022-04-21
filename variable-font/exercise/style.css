@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "choreo";
+  src: url("Choreo-ChoreoVF.woff2") format("woff2");
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: choreo;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.interaction-1{
+	font-family: choreo;
+	font-size: 400px;
+	text-align: center;
+	font-variation-settings: 'wght' 0;
+	letter-spacing: -10px;
+	/*animation: transformation 2s infinite alternate;*/
+}
+
+.interaction-1.darkmode{
+	font-family: choreo;
+	font-size: 400px;
+	text-align: center;
+	font-variation-settings: 'wght' 100;
+	transition: 2s ease-in;
+	/*animation: transformation 2s infinite alternate;*/
+	background: black;
+	color: pink;
+}
+
+.interaction-2{
+	font-family: choreo;
+	font-size: 200px;
+	text-align: center;
+	font-variation-settings: 'wght' 0;
+	display: flex;
+	justify-content: center;
+/*	animation: transformation 2s infinite alternate;*/
+}
+
+.play{
+	color: orange;
+	font-variation-settings: 'wght' 100;
+	animation: transformation 2s infinite alternate;
+}
+
+.interaction-3{
+	font-family: choreo;
+	font-size: 200px;
+	text-align: center;
+	font-variation-settings: 'wght' 0;
+	display: flex;
+	justify-content: center;
+}
+
+.element-r{
+	animation: rotate 1s infinite alternate;
+}
+
+.interaction-4{
+	--variable-axis: 50;
+	font-family: choreo;
+	font-size: 100px;
+	text-align: center;
+	font-variation-settings: 'wght' var(--variable-axis);
+	display: flex;
+	justify-content: center;
+}
+
+.sliders{
+	display: flex;
+	justify-content: center;
+}
+
+.interaction-5{
+	font-family: choreo;
+	font-size: 1200px;
+	text-align: center;
+	font-variation-settings: 'wght' var(--variable-axis);
+	background: black;
+	color: pink;
+}
+
+.interaction-6{
+	font-family: choreo;
+	font-size: 1200px;
+	text-align: center;
+	font-variation-settings: 'wght' 100;
+	background: black;
+	color: pink;
+	animation: transformation 2s infinite alternate;
+}
+
+
+
+
+.bodytext-1{
+	font-family: choreo;
+	font-size: 100px;
+	text-align: center;
+	font-variation-settings: 'wght' 100;
+	animation: transformation 2s infinite alternate;
+}
+
+.bodytext-2{
+	font-family: choreo;
+	font-size: 40px;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	font-variation-settings: 'wght' 100;
+/*	animation: transformation 2s infinite alternate;*/
+}
+
+@keyframes transformation{
+	from{
+		font-variation-settings: 'wght' 0;
+	}
+	to{
+		font-variation-settings: 'wght' 100;
+	}
+}
+
+@keyframes rotate{
+	0%{
+		transform: rotate(-10deg);
+	}
+	100%{
+		transform: rotate(10deg);
+	}
+}
+
+
+button{
+	font-size: 20px;
+}
+
+button::before{
+	content: 'day mode';
+}
+button.active::before{
+	content: 'night mode';
+}
+
+button.active{
+	color: pink;
+}
+
+
+
