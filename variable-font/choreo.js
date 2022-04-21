@@ -42,12 +42,12 @@ $(document).ready(function() {
 	// it's about caculating the ratio = the coordinate/ the width of the space 其实就是把整个屏幕上的mousemove scale down到某一个位置。
 	//then use the ratio to multiply with 100 to correspond to the variable font's changing range.
 
-	$('.element').click(function(){
+	$('.element').hover(function(){
 			console.log('element still')
 			$(this).toggleClass('still');
 		});
 
-		$('.element').click(function(){
+		$('.element').hover(function(){
 			let letter = $(this).text();
 
 			$('.big-letters').text( letter );
