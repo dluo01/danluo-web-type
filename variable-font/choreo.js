@@ -1,4 +1,5 @@
 $(document).ready(function() {
+		$.getScript('cursor.js');
 
 		$(window).scroll(function(){
 		if ($('.design-concept').offset().top < $(window).scrollTop()+40 && $(window).scrollTop()+30 <$('.ballet-dancers').offset().top){

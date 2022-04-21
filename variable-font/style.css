@@ -155,24 +155,6 @@ body{
 }
 
 /* design concept-----------------------------------------------------------*/
-.divider-wave{
-  display: block;
-  content: '';
-  background-image:url("images/wave.svg");
-  background-size: 60px 30px;
-  background-position: 0px 0px;
-    background-position-x: 0px;
-    background-position-y: 0px;
-  animation: waves 2s infinite ease-in-out;
-}
-@keyframes waves{
-  0%{
-    transform: translateX(-10px);
-  }
-  100%{
-    transform: translateX(10px);
-  }
-}
 
 .design-concept{
   padding-top: 18vh;
