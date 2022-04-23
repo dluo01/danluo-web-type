@@ -80,7 +80,7 @@ body{
 }
 
 .music-staff{
-  height: 4.2vw;
+  height: 5.5vw;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   border: 1px solid;
@@ -92,14 +92,14 @@ body{
 }
 
 .navi-contents-wrapper{
-  height: 4.2vw;
+  height: 5.5vw;
   position: relative;
-  bottom: 4.4vw;
+  bottom: 5.5vw;
   z-index: 110;
 }
 .navi-contents{
   font-family:"roslindale-display-light";
-  font-size: 2.3vw;
+  font-size: 3.2vw;
   display: flex;
   justify-content: space-between;
   padding-left: 4vw;
@@ -108,7 +108,7 @@ body{
 
 .initial-navi{
   font-family: choreo;
-  font-size: 3.3vw;
+  font-size: 4.2vw;
 }
 
 .navi-content:hover{
@@ -171,7 +171,7 @@ body{
 .divider{
   font-size: 70px;
   text-align: center;
-  padding-bottom: 10vh;
+  padding-bottom: 14vh;
 }
 
 .divider-mobile-version{
@@ -203,42 +203,17 @@ body{
 
 .highlight-text{
   font-family: choreo;
-  font-size: 55px;
+  font-size: 60px;
   text-transform: uppercase;
-  line-height: 140%;
+  line-height: 130%;
 }
 
-.highlight-slider-wrapper{
-  text-align: center;
-  font-size: 18px;
-}
-
-.highlight-slider-container{
-  width: 20vw;
-  display: inline-flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.highlight-slider{
-   -webkit-appearance: none;
-   appearance: none;
-   width: 10vw;
-   height: 1px;
-   background: black;
-   outline: none;
-   margin-left: 20px;
-   margin-right: 20px;
-}
-
-.highlight-slider::-webkit-slider-thumb{
-  -webkit-appearance: none;
-  appearance: none;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%; 
-  background:#FFB6CE;
-  cursor: pointer;
+.highlight-text-break{
+  display: none;
+  font-family: choreo;
+  text-transform: uppercase;
+  font-size: 58px;
+  line-height: 130%;
 }
 
 .left-column{
@@ -265,11 +240,10 @@ body{
 
 #baroque-1{
   position: relative;
-/*  left: 4vw;*/
+  left: 4vw;
 }
 
 #baroque-2{
-  display: none;
   width: 20vw;
   position: absolute;
   bottom: 0vh;
@@ -618,6 +592,10 @@ body{
   animation: transformation 1.5s infinite alternate;
 }
 
+.tester{
+  box-shadow: 15px 15px white;
+}
+
 .sliders{
   font-family:"roslindale-display-light";
   font-size: 20px;
@@ -661,23 +639,24 @@ button{
   background-color: black;
   border: 1px white solid;
   color: white;
-  padding: 13px;
+  padding: 10px;
   border-radius: 10px;
 }
 
+button{
+  box-shadow: 8px 8px white;
+}
 
 button:hover{
   animation: hover 1s infinite alternate;
-  color: #FFB6CE;
-  border-color: #FFB6CE;
 }
 
 @keyframes hover{
   0%{
-    font-variation-settings: 'wght' 100;;
+    transform: translateX(-10px);
   }
   100%{
-      font-variation-settings: 'wght' 0;;
+    transform: translateX(10px);
   }
 }
 
@@ -697,7 +676,7 @@ button:hover{
   font-size: 70px;
   text-align: center;
   padding-top: 5vh;
-  padding-bottom: 10vh;
+  padding-bottom: 12vh;
 }
 
 .content{
@@ -731,20 +710,20 @@ a{
     font-size: 100px;
   }
   .divider-initial{
-    font-size: 125px;
+    font-size: 110px;
   }
   .bullet{
-    font-size: 165px;
+    font-size: 150px;
   }
-
 
 /*design-concept*/
-  .highlight-text{
-    font-size: 90px;
-  }
   .design-concept{
     font-size: 28px;
     line-height: 150%;
+  }
+  .highlight-text{
+    font-size: 90px;
+    line-height: 130%;
   }
   .choreo{
     font-size: 35px;
@@ -759,15 +738,15 @@ a{
     font-size: 33px;
     line-height: 180%;
   }
+  button{
+    font-size: 40px;
+    padding: 20px;
+
+  }
   .tester{
     font-size: 160px;
     line-height: 120%;
   }
-  button{
-    font-size:40px;
-    padding: 18px;
-  }
-
 
   /*contact*/
   .content{
@@ -788,6 +767,10 @@ a{
     font-size: 27px;
     line-height: 150%;
   }
+  .highlight-text{
+    font-size: 88px;
+    line-height: 130%;
+  }
   .choreo{
     font-size: 34px;
   }
@@ -796,6 +779,10 @@ a{
   .sliders{
     font-size: 30px;
     line-height: 180%;
+  }
+  button{
+    font-size: 36px;
+    padding: 20px;
   }
 /*contact*/
   .content{
@@ -809,7 +796,7 @@ a{
 
 /*2300-----------------------------------------------------------*/
 
-@media screen and (max-width: 2300px)
+@media screen and (max-width: 2300px){
 
 /*ballet-dancers*/
   .line-names{
@@ -821,8 +808,8 @@ a{
     line-height: 180%;
   }
   button{
-    font-size:32px;
-    padding: 18px;
+    font-size: 34px;
+    padding: 20px;
   }
 }
 
@@ -844,6 +831,10 @@ a{
     font-size: 26px;
     line-height: 150%;
   }
+  .highlight-text{
+    font-size: 85px;
+    line-height: 130%;
+  }
   .choreo{
     font-size: 32px;
   }
@@ -851,6 +842,10 @@ a{
   .sliders{
     font-size: 27px;
     line-height: 180%;
+  }
+  button{
+    font-size: 32px;
+    padding: 20px;
   }
 /*contact*/
   .content{
@@ -871,19 +866,20 @@ a{
     font-size: 90px;
   }
   .divider-initial{
-    font-size: 107px;
+    font-size: 100px;
   }
   .bullet{
-    font-size: 147px;
+    font-size: 140px;
   }
 
 /*design-concept*/
-  .highlight-text{
-    font-size: 80px;
-  }
   .design-concept{
     font-size: 25px;
     line-height: 150%;
+  }
+  .highlight-text{
+    font-size: 8px;
+    line-height: 130%;
   }
   .choreo{
     font-size: 30px;
@@ -897,13 +893,13 @@ a{
     font-size: 26px;
     line-height: 180%;
   }
+  button{
+    font-size: 30px;
+    padding: 20px;
+  }
   .tester{
     font-size: 140px;
     line-height: 120%;
-  }
-  button{
-    font-size:30px;
-    padding: 16px;
   }
 /*contact*/
   .content{
@@ -924,16 +920,20 @@ a{
     font-size: 85px;
   }
   .divider-initial{
-    font-size: 103px;
+    font-size: 95px;
   }
   .bullet{
-    font-size: 143px;
+    font-size: 135px;
   }
 
 /*design-concept*/
   .design-concept{
     font-size: 25px;
     line-height: 150%;
+  }
+  .highlight-text{
+    font-size: 75px;
+    line-height: 130%;
   }
   .choreo{
     font-size: 30px;
@@ -947,13 +947,13 @@ a{
     font-size: 23px;
     line-height: 180%;
   }
+  button{
+    font-size: 27px;
+    padding: 18px;
+  }
   .tester{
     font-size: 130px;
     line-height: 120%;
-  }
-  button{
-    font-size:28px;
-    padding: 16px;
   }
 /*contact*/
   .content{
@@ -974,22 +974,20 @@ a{
     font-size: 80px;
   }
   .divider-initial{
-    font-size: 100px;
+    font-size: 90px;
   }
   .bullet{
-    font-size: 140px;
-  }
-  .divider,.divider-4{
-    padding-bottom: 12vh;
+    font-size: 130px;
   }
 
 /*design-concept*/
-  .highlight-text{
-    font-size: 75px;
-  }
   .design-concept{
     font-size: 24px;
     line-height: 150%;
+  }
+  .highlight-text{
+    font-size: 68px;
+    line-height: 130%;
   }
   .choreo{
     font-size: 30px;
@@ -1003,13 +1001,13 @@ a{
     font-size: 21px;
     line-height: 180%;
   }
+  button{
+    font-size: 26px;
+    padding: 18px;
+  }
   .tester{
     font-size: 115px;
     line-height: 120%;
-  }
-  button{
-    font-size:25px;
-    padding: 15px;
   }
 /*contact*/
   .content{
@@ -1031,10 +1029,10 @@ a{
     font-size: 70px;
   }
   .divider-initial{
-    font-size: 90px;
+    font-size: 80px;
   }
   .bullet{
-    font-size: 130px;
+    font-size: 120px;
   }
 
 /*design-concept*/
@@ -1043,7 +1041,8 @@ a{
     line-height: 150%;
   }
   .highlight-text{
-    font-size: 70px;
+    font-size: 58px;
+    line-height: 130%;
   }
   .choreo{
     font-size: 30px;
@@ -1058,13 +1057,12 @@ a{
       font-size: 20px;
       line-height: 180%;
     }
+    button{
+      font-size: 25px;
+    }
     .tester{
       font-size: 100px;
       line-height: 100%;
-    }
-    button{
-    font-size:24px;
-    padding: 14px;
     }
 
     /*contact*/
@@ -1083,6 +1081,10 @@ a{
 @media screen and (max-width: 1700px){
 
 /*design-concept*/
+  .highlight-text{
+    font-size: 58px;
+    line-height: 120%;
+  }
  .design-concept{
     font-size: 22px;
   }
@@ -1097,14 +1099,15 @@ a{
 @media screen and (max-width: 1600px){
 
 /*design-concept*/
+.highlight-text{
+    font-size: 57px;
+    line-height: 120%;
+  }
   .design-concept{
     font-size: 21px;
   }
   .choreo{
     font-size: 27px;
-  }
-  .highlight-text{
-    font-size: 60px;
   }
 
 /*ballet-dancers*/
@@ -1117,12 +1120,22 @@ a{
 @media screen and (max-width: 1562px){
 
 /*design-concept*/
-  .design-concept{
-      font-size: 20px;
+  .highlight-text{
+    display: none;
   }
   .choreo{
       font-size: 26px;
-  }  
+  }
+  .highlight-text-break{
+    display: block;
+    font-family: choreo;
+    text-transform: uppercase;
+    font-size: 57px;
+    line-height: 120%;
+  }
+  .design-concept{
+      font-size: 20px;
+  }
 /*ballet-dancers*/
     .line-names{
       font-size: 16px;
@@ -1131,51 +1144,54 @@ a{
 /*1400-----------------------------------------------------------*/
 @media screen and (max-width: 1467px){
  /*design-concept*/
-  .highlight-text{
-    font-size: 60px;
-  }
-  .design-concept{
-      font-size: 20px;
-  }
+.highlight-text{
+  display: block;
+  font-size: 55px;
+  line-height: 120%;
+}
+.highlight-text-break{
+  display: none;
+} 
+.design-concept{
+    font-size: 20px;
+}
 
 /*ballet-dancers*/
-  .line-names{
-      font-size: 15px;
-  }
+.line-names{
+    font-size: 15px;
+}
 
 /*type-tester*/
-  .sliders{
-    font-size: 18px;
-    line-height: 180%;
-  }
-  button{
-    font-size:22px;
-    padding: 12px;
-  }
+.sliders{
+  font-size: 18px;
+  line-height: 180%;
+}
+button{
+  font-size: 23px;
+}
 
 /*contact*/
-  .content{
-    font-size: 20px;
-    line-height: 180%;
-  }
-  #email{
-    font-size: 30px;
-  }
+.content{
+  font-size: 20px;
+  line-height: 180%;
+}
+#email{
+  font-size: 30px;
+}
 }
 
 /*1300-----------------------------------------------------------*/
 @media screen and (max-width: 1300px){
  /*design-concept*/
+  .highlight-text{
+    font-size: 53px;
+    line-height: 120%;
+  }
   .design-concept{
     font-size: 18px;
   }
   .choreo{
       font-size: 24px;
-  }
-
-  button{
-    font-size:20px;
-    padding: 10px;
   }
 
   /*contact*/
@@ -1200,26 +1216,26 @@ a{
   }
   .music-staff{
     height: 6vw;
-    border: 1px solid;
+    border: 0.7px solid;
   }
   .row{
     border: 0.5px solid;
   }
   .navi-contents-wrapper{
     height: 6vw;
-    bottom: 5.6vw;
+    bottom: 6vw;
     z-index: 110;
   }
 
   .navi-contents{
-    font-size: 3.1vw;
+    font-size: 3.5vw;
     padding-left: 4vw;
     padding-right: 4vw;
   }
 
   .initial-navi{
     font-family: choreo;
-    font-size: 4vw;
+    font-size: 4.5vw;
   } 
 
 /*divider*/
@@ -1227,16 +1243,13 @@ a{
     font-size: 65px;
   }
   .divider-initial{
-    font-size: 85px;
+    font-size: 75px;
   }
   .bullet{
-    font-size: 121px;
+    font-size: 115px;
   }
 
 /*design-concept*/  
-  .highlight-text{
-    font-size: 55px;
-  }
   .choreo{
     font-size: 22px;
   }
@@ -1257,9 +1270,6 @@ a{
 /*1100-----------------------------------------------------------*/
 @media screen and (max-width: 1100px){
   /*design-concept*/  
-  .highlight-text{
-    font-size: 50px;
-  }
   .choreo{
     font-size: 22px;
   }
@@ -1278,27 +1288,27 @@ a{
     display: block;
   }
   .music-staff{
-    height: 6.7vw;
-    border: 1px solid;
+    height: 7vw;
+    border: 0.7px solid;
   }
   .row{
     border: 0.5px solid;
   }
   .navi-contents-wrapper{
-    height: 6.7vw;
-    bottom: 6.5vw;
+    height: 7vw;
+    bottom: 7vw;
     z-index: 110;
   }
 
   .navi-contents{
-    font-size: 3.7vw;
+    font-size: 4vw;
     padding-left: 4vw;
     padding-right: 4vw;
   }
 
   .initial-navi{
     font-family: choreo;
-    font-size: 4.6vw;
+    font-size: 5.2vw;
   }
 
 /*divider*/
@@ -1306,15 +1316,16 @@ a{
     font-size: 63px;
   }
   .divider-initial{
-    font-size: 79px;
+    font-size: 73px;
   }
   .bullet{
-    font-size: 119px;
+    font-size: 113px;
   }
 
 /*design-concept*/
   .highlight-text{
-    font-size: 50px;
+    font-size: 47px;
+    line-height: 120%;
   }
   .design-concept{
     font-size: 17px;
@@ -1336,18 +1347,56 @@ a{
 
 }
 
+
 /*900-----------------------------------------------------------*/
 @media screen and (max-width: 900px){
+/*navigation*/
+  .navi-wrapper{
+    display: none;
+  }
+  .navi-middle-version-wrapper{
+    display: none;
+  }
+  .navi-small-version-wrapper{
+    display: block;
+  }
+  .music-staff{
+    height: 8vw;
+    border: 0.7px solid;
+  }
+  .row{
+    border: 0.5px solid;
+  }
+  .navi-contents-wrapper{
+    height: 8vw;
+    bottom: 7.8vw;
+    z-index: 110;
+  }
+
+  .navi-contents{
+    font-size: 4.2vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+
+  .initial-navi{
+    font-family: choreo;
+    font-size: 5.6vw;
+  }
 
 /*design-concept*/
   .highlight-text{
-    line-height: 130%;
+    font-size: 47px;
+    line-height: 120%;
   }
 
 /*type-tester*/
   .sliders{
     font-size: 17px;
     line-height: 180%;
+  }
+  button{
+    font-size: 21px;
   }
   .tester{
     font-size: 80px;
@@ -1365,7 +1414,6 @@ a{
 
 /*800-----------------------------------------------------------*/
 @media screen and (max-width: 800px){
-
 /*navigation*/
   .navi-wrapper{
     display: none;
@@ -1377,29 +1425,27 @@ a{
     display: block;
   }
   .music-staff{
-    height: 8vw;
+    height: 9vw;
     border: 0.8px solid;
   }
   .row{
     border: 0.5px solid;
   }
   .navi-contents-wrapper{
-    height: 8vw;
-    bottom: 7.5vw;
+    height: 9vw;
+    bottom: 8.4vw;
     z-index: 110;
+    letter-spacing: 0;
   }
-
   .navi-contents{
     font-size: 4.5vw;
     padding-left: 4vw;
     padding-right: 4vw;
   }
-
   .initial-navi{
     font-family: choreo;
-    font-size: 5.4vw;
+    font-size: 5.8vw;
   }
-
 /*divider*/
   .divider,.divider-3{
     display: none;
@@ -1412,10 +1458,10 @@ a{
     font-size: 63px;
   }
   .divider-initial{
-    font-size: 79px;
+    font-size: 73px;
   }
   .bullet{
-    font-size: 119px
+    font-size: 113px
   }
 /*design-concept*/
   .cell{
@@ -1433,7 +1479,8 @@ a{
     display: none;
   }
   .highlight-text{
-    font-size: 50px;
+    font-size: 48px;
+    line-height: 120%;
   }
   .design-concept{
     font-size: 17px;
@@ -1566,7 +1613,7 @@ a{
   .mobile-slider-wrapper{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    padding-bottom: 3vh;
+    padding-bottom: 2vh;
   }
   .mobile-slider-row{
     display: grid;
@@ -1580,6 +1627,7 @@ a{
     width: 75vw;
     display: block;
     margin: auto;
+    box-shadow: 8px 8px white;
   }
   .divider-3{
     padding-bottom: 8vh;
@@ -1597,9 +1645,6 @@ a{
   .line-names{
     font-size: 14px;
   }
-  .divider,.divider-4{
-    padding-bottom: 10vh;
-  }
   /*type-tester*/
   .sliders-mobile-version{
     width: 76.5vw;
@@ -1608,6 +1653,9 @@ a{
     padding-top: 8vw;
     padding-left: 12.5vw;
     padding-right: 7vw;
+  }
+  button{
+    font-size: 21px;
   }
   .tester{
     font-size: 80px;
@@ -1621,9 +1669,6 @@ a{
   .line-names{
     font-size: 13px;
     padding-top: 7px;
-  }
-  .highlight-text{
-    font-size: 45px;
   }
 }
 /*600-----------------------------------------------------------*/
@@ -1641,6 +1686,9 @@ a{
     padding-left: 12.5vw;
     padding-right: 7vw;
   }
+  button{
+    font-size: 20px;
+  }
   .tester{
     font-size: 75px;
     line-height: 100%;
@@ -1653,6 +1701,11 @@ a{
     font-size: 12px;
     padding-top: 8px;
   }
+  /*design-concept*/
+  .highlight-text{
+    font-size: 46px;
+    line-height: 120%;
+  }
   /*divider*/
   .divider-mobile-version,.divider-4{
     padding-bottom: 12vh;
@@ -1660,6 +1713,9 @@ a{
   /*type-tester*/
   .sliders-mobile-version{
     font-size: 15px;
+  }
+  button{
+    font-size: 19px;
   }
   .tester{
     font-size: 70px;
@@ -1674,7 +1730,6 @@ a{
     font-size: 12px;
     padding-top: 8px;
   }
-
 /*divider*/
   .divider,.divider-3{
     display: none;
@@ -1693,6 +1748,10 @@ a{
     font-size: 107px
   }
 /*design-concept*/
+  .highlight-text{
+    font-size: 45px;
+    line-height: 120%;
+  }
   .design-concept{
     font-size: 16px;
   }
@@ -1715,6 +1774,9 @@ a{
   /*type-tester*/
   .sliders-mobile-version{
     font-size: 14px;
+  }
+  button{
+    font-size: 18px;
   }
   .tester{
     font-size: 70px;
@@ -1789,6 +1851,9 @@ a{
   .sliders-mobile-version{
     font-size: 14px;
   }
+  button{
+    font-size: 18px;
+  }
   .tester{
     font-size: 70px;
     line-height: 100%;
@@ -1853,6 +1918,9 @@ a{
   .sliders-mobile-version{
     font-size: 13px;
   }
+  button{
+    font-size: 17px;
+  }
   .tester{
     font-size: 65px;
     line-height: 100%;
@@ -1907,6 +1975,9 @@ a{
 /*type-tester*/
   .sliders-mobile-version{
     font-size: 12px;
+  }
+  button{
+    font-size: 16px;
   }
   .tester{
     font-size: 55px;
@@ -1964,6 +2035,9 @@ a{
   .sliders-mobile-version{
     font-size: 12px;
   }
+  button{
+    font-size: 16px;
+  }
   .tester{
     font-size: 65px;
     line-height: 100%;
@@ -2020,6 +2094,9 @@ a{
   .sliders-mobile-version{
     font-size: 11px;
   }
+  button{
+    font-size: 16px;
+  }
   .tester{
     font-size: 60px;
     line-height: 100%;
@@ -2068,6 +2145,9 @@ a{
   .sliders-mobile-version{
     font-size: 11px;
   }
+  button{
+    font-size: 16px;
+  }
   .tester{
     font-size: 55px;
     line-height: 100%;
@@ -2093,17 +2173,17 @@ a{
     display: none;
   }
   .divider-2,.divider-4{
-    font-size: 38px;
+    font-size: 39px;
   }
   .divider-mobile-version,.divider-3-mobile-version{
     display: block;
-    font-size: 38px;
+    font-size: 39px;
   }
   .divider-initial{
-    font-size: 48px;
+    font-size: 49px;
   }
   .bullet{
-    font-size: 78px
+    font-size: 89px
   }
   .divider-mobile-version,.divider-4{
     padding-bottom: 8vh;
@@ -2124,6 +2204,9 @@ a{
 /*type-tester*/
   .sliders-mobile-version{
     font-size: 11px;
+  }
+  button{
+    font-size: 16px;
   }
   .tester{
     font-size: 50px;
