@@ -102,7 +102,7 @@ body{
 }
 
 .character-img{
-    height: 10vh;
+    height: 15vh;
     position: absolute;
-    top: 3vh;
+    top: 0vh;
 }
