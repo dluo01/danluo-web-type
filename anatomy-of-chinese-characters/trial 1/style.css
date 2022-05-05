@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+@font-face {
+    font-family: "DIN-alternate-bold";
+    src: url("fonts/DINAlternate-Bold.woff") format("woff");
+  }
+.cover{
+    display:grid;
+    grid-template-columns: 50vw 50vw;
+    height:100vh;
+}
+.left-column{
+    background-color: black;
+    position: relative;
+    box-shadow: 20px 0px 15px grey;
+}
+
+.title{
+   color:white;
+   font-family:'DIN-alternate-bold', sans-serif;
+   font-size:3.1vw;
+   position:relative;
+}
+
+.date{
+   color:white;
+   font-family:'DIN-alternate-bold', sans-serif;
+   font-size:1vw;
+   padding-left: 3.5vw;
+   padding-right: 8vw;
+   padding-top: 5vh;
+   display: flex;
+   justify-content: space-between;
+}
+
+#arrow{
+    font-size: 1.2vw;
+}
+
+#title{
+    transform:rotate(-90deg);
+    position:absolute;
+    left:-18vw;
+    top:44vh;
+    letter-spacing: 1px;
+}
+
+.boxes-wrapper{
+    border-left: 1px white solid;
+    height: 100vh;
+    margin-left: 6vw;
+}
+
+.boxes{
+    padding-top:10vh;
+    padding-left:3.5vw;
+    padding-right:10vw;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 2vw;
+    grid-template-rows: repeat(4,1fr);
+    row-gap:2vw;
+}
+
+.single-box-item{
+    width:6.5vw;
+    border:1pt solid white;
+}
+
+#half-circle{
+    height: 17vh;
+    position: absolute;
+    right: 0;
+    top: 39vh;
+}
+

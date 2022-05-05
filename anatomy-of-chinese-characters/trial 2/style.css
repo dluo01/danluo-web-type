@@ -1,0 +1,322 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+@font-face {
+    font-family: "DIN-alternate-bold";
+    src: url("fonts/DINAlternate-Bold.woff") format("woff");
+  }
+
+.cover{
+    height: 100vh;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    background: black;
+}
+
+.navi{
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4vh;
+
+}
+
+.title{
+    font-family:"DIN-alternate-bold";
+    font-size: 35px;
+    color: white;
+}
+
+.date{
+    font-family:"DIN-alternate-bold";
+    font-size: 20px;
+    color: white;
+}
+.button{
+    width: 40px;
+}
+
+.composition{
+    position: relative;
+}
+
+/*.grid{
+    width: 20vw;
+    height: 20vw;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 1vw;
+    grid-template-rows: repeat(4,1fr);
+    row-gap: 1vw;
+    position: absolute;
+    top: 50vh;
+}
+
+.grid-item{
+    border: 1px white solid;
+}
+*/
+.seg{
+    position: absolute;
+    width: 1vw;
+}
+
+.seg:hover{
+    animation: jump 1s infinite alternate;
+}
+
+@keyframes jump{
+    0%{
+        transform: translateY(10px);
+
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+.seg-1{
+    width: 17vw;
+    right:20vw;
+    top: -1vh;
+}
+
+.seg-2{
+    width:10vw;
+    right: 0;
+    top: 10vh;
+}
+
+.seg-3{
+    width: 9vw;
+    right: 12vw;
+    top: 15vh;
+}
+
+.seg-4{
+    width: 8vw;
+    right: 5vw;
+    top: 30vh;
+}
+
+.seg-5{
+    width: 8vw;
+    right: 48vw;
+    top: 6vh;
+}
+
+.seg-6{
+    width: 10vw;
+    right: 28vw;
+    top: 19vh;
+}
+
+.seg-7{
+    width: 8vw;
+    right: 20vw;
+    top: 29vh;
+}
+
+.seg-8{
+    width: 6vw;
+    right: 15vw;
+    top: 35vh;
+}
+
+.seg-9{
+    width: 6vw;
+    right: 8vw;
+    top: 43vh;
+}
+
+.seg-10{
+    width: 9vw;
+    right: 40vw;
+    top: 15vh;
+}
+
+.seg-11{
+    width: 5vw;
+    right: 15vw;
+    top:46vh;
+}
+
+.seg-12{
+    width: 5vw;
+    right: 20vw;
+    top: 43vh;
+}
+
+.seg-13{
+    width: 6vw;
+    right: 29vw;
+    top: 35vh;
+}
+
+.seg-14{
+    width: 5vw;
+    right: 40vw;
+    top: 32vh;
+}
+
+.seg-15{
+    width: 5vw;
+    right: 25vw;
+    top: 50vh;
+}
+
+.seg-16{
+    width: 5vw;
+    right: 19vw;
+    top: 52vh;
+}
+
+.seg-17{
+    width: 9vw;
+    right: 34vw;
+    top: 42vh;
+}
+
+.seg-18{
+    width: 5vw;
+    right: 30vw;
+    top: 52vh;
+}
+
+.seg-19{
+    width: 4vw;
+    right: 27vw;
+    top: 60vh;
+}
+
+.seg-20{
+    width: 6vw;
+    right: 52vw;
+    top: 32vh;
+}
+
+.seg-21{
+    width: 6vw;
+    right: 44vw;
+    top: 42vh;
+}
+
+.seg-22{
+    width: 7vw;
+    right: 38vw;
+    top: 57vh;
+}
+
+.seg-23{
+    width: 3vw;
+    right: 35vw;
+    top: 64vh;
+}
+
+.seg-24{
+    width: 3vw;
+    right: 32vw;
+    top: 70vh;
+}
+
+.seg-25{
+    width: 3vw;
+    right: 23vw;
+    top: 62vh;
+}
+
+.seg-26{
+    width: 5vw;
+    right: 38vw;
+    top: 70vh;
+}
+
+.seg-27{
+    width: 4vw;
+    right: 46vw;
+    top: 62vh;
+}
+
+.seg-28{
+    width: 4.5vw;
+    right: 50vw;
+    top: 50vh;
+}
+
+.seg-29{
+    width: 4vw;
+    right: 50vw;
+    top: 66vh;
+}
+
+.seg-30{
+    width: 4vw;
+    right: 45vw;
+    top: 73vh;
+}
+
+.seg-31{
+    width: 4vw;
+    right: 57vw;
+    top: 52vh;
+}
+
+.seg-32{
+    width: 3vw;
+    right: 60vw;
+    top: 65vh;
+}
+
+.seg-33{
+    width: 3vw;
+    right: 66vw;
+    top: 65vh;
+}
+
+.seg-34{
+    width: 3vw;
+    right: 56vw;
+    top: 70vh;
+}
+
+.seg-35{
+    width: 3vw;
+    right: 51vw;
+    top: 75vh;
+}
+
+.seg-36{
+    width: 3vw;
+    right: 60vw;
+    top: 76vh;
+}
+
+.seg-37{
+    width: 2.5vw;
+    right: 68vw;
+    top: 75vh;
+}
+
+.seg-38{
+    width: 2.5vw;
+    right: 74vw;
+    top: 70vh;
+}
+
+.seg-39{
+    width: 2.5vw;
+    right: 78vw;
+    top: 78vh;
+}
+
+.seg-40{
+    width: 2.5vw;
+    right: 85vw;
+    top: 80vh;
+}
+
+
+
+
