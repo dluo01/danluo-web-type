@@ -13,19 +13,15 @@ body{
     font-family:"InputMono-Regular";
 }
 
-.cover{
-    height: 100vh;
-    padding-left: 4vw;
-    padding-right: 4vw;
-}
-
 .navi{
-    height: 10h;
+    height: 10vh;
+    width: 100vw;
     padding-top: 4vh;
     padding-bottom: 4vh;
     padding-left: 4vw;
     position: fixed;
     color: white;
+    z-index: 100;
 }
 
 .title{
@@ -41,14 +37,19 @@ body{
     margin-right: 20px;
 }
 
+.scroll-wrapper{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
 #grid-container{
     display: grid;
-    width:3900px;
+    width: 3900px;
     grid-template-columns: repeat(10, 1fr);
     column-gap:100px;
     grid-template-rows: repeat(16, 1fr);
     row-gap:100px;
-    position: relative;
 }
 
 .seg{
@@ -75,6 +76,7 @@ body{
     position: fixed;
     top: 78vh;
     display: none;
+    font-size: 20px;
 }
 
 .category{
@@ -83,7 +85,6 @@ body{
     padding-top: 2vh;
     display: grid;
     grid-template-columns: 1fr 1.2fr 1fr 1fr 1fr;
-    font-size: 20px;
 }
 
 .information{
@@ -92,7 +93,6 @@ body{
     display: grid;
     grid-template-columns: 1fr 1.2fr 1fr 1fr 1fr;
     position: relative;
-    font-size: 20px;
     line-height: 150%;
     padding-top: 5vh;
 }
@@ -100,26 +100,30 @@ body{
 .character-img{
     height: 15vh;
     position: absolute;
-    top: 0vh;
+    top: 1vh;
 }
 
 .info-panel-content-mobile{
-    display: none;
     padding-left: 4vw;
     padding-right: 4vw;
-    display: grid;
+    padding-top: 2vh;
     grid-template-rows: 3fr 1fr 1fr 1fr 1fr;
+    row-gap: 8px;
+    display: none;
 }
+
 .row{
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
 
 
+
 /*Q: 
 0. info-panel-content-mobile grid doesn't function?
 1. How to make the viewport sit in the middle of the content div? 
 2. Should I change click-toggle to another command so that there is no confusing behaviour? 
+data-test="xxx" like an class or id
 2. How to add the visitor number count/click count/travel distance count? */
 
 @media screen and (max-width: 2560px){
@@ -136,14 +140,9 @@ body{
         margin-right: 35px;
     }
 
-    .category{
-    font-size: 30px;
+    .info-panel{
+        font-size: 25px;
     }
-
-    .information{
-        font-size: 30px;
-    }
-
 }
 
 
@@ -161,11 +160,7 @@ body{
         margin-right: 30px;
     }
 
-    .category{
-    font-size: 25px;
-    }
-
-    .information{
+    .info-panel{
         font-size: 25px;
     }
 
@@ -174,23 +169,39 @@ body{
 
 @media screen and (max-width: 1900px){
     .title{
-        font-size: 35px;
+        font-size: 40px;
     }
 
     .subtitle{
-        font-size: 20px;
+        font-size: 28px;
         display: flex;
     }
 
     #subtitle-1{
-        margin-right: 20px;
-    }
-    .category{
-    font-size: 20px;
+        margin-right: 28px;
     }
 
-    .information{
-        font-size: 20px;
+    .info-panel{
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 1700px){
+    .title{
+        font-size: 38px;
+    }
+
+    .subtitle{
+        font-size: 26px;
+        display: flex;
+    }
+
+    #subtitle-1{
+        margin-right: 26px;
+    }
+
+    .info-panel{
+        font-size: 21px;
     }
 }
 
@@ -200,84 +211,97 @@ body{
     }
 
     .subtitle{
-        font-size: 20px;
+        font-size: 23px;
         display: flex;
     }
 
     #subtitle-1{
-        margin-right: 20px;
-    }
-    .category{
-    font-size: 20px;
+        margin-right: 23px;
     }
 
-    .information{
-        font-size: 20px;
-    }
-
-    #grid-container{
-        display: grid;
-        width:2900px;
-        grid-template-columns: repeat(10, 1fr);
-        column-gap:100px;
-        grid-template-rows: repeat(16, 1fr);
-        row-gap:100px;
-        position: relative;
-    }
-
-    .seg{
-        width: 200px;
+    .info-panel{
+        font-size: 18px;
     }
 }
 
 
 @media screen and (max-width: 1400px){
     .title{
-        font-size: 30px;
+        font-size: 32px;
     }
 
     .subtitle{
-        font-size: 18px;
+        font-size: 21px;
         display: flex;
     }
 
     #subtitle-1{
-        margin-right: 18px;
+        margin-right: 21px;
     }
 
-    .category{
-    font-size: 18px;
-    }
-
-    .information{
-        font-size: 18px;
+    .info-panel{
+        font-size: 16px;
     }
 }
 
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1300px){
     .title{
         font-size: 30px;
     }
 
     .subtitle{
-        font-size: 16px;
+        font-size: 19px;
         display: flex;
     }
 
     #subtitle-1{
-        margin-right: 16px;
+        margin-right: 19px;
     }
 
-    .category{
-    font-size: 16px;
-    }
-
-    .information{
-        font-size: 16px;
+    .info-panel{
+        font-size: 15px;
     }
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1200px){
+    .title{
+        font-size: 28px;
+    }
+
+    .subtitle{
+        font-size: 17px;
+        display: flex;
+    }
+
+    #subtitle-1{
+        margin-right: 17px;
+    }
+
+    .info-panel{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .title{
+        font-size: 26px;
+    }
+
+    .subtitle{
+        font-size: 15px;
+        display: flex;
+    }
+
+    #subtitle-1{
+        margin-right: 15px;
+    }
+
+    .info-panel{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 800px){
     .title{
         font-size: 25px;
     }
@@ -291,50 +315,23 @@ body{
         margin-right: 14px;
     }
 
-    .category{
-    font-size: 14px;
-    }
-
-    .information{
-        font-size: 14px;
-    }
-
-    #grid-container{
-        display: grid;
-        width:1950px;
-        grid-template-columns: repeat(10, 1fr);
-        column-gap:50px;
-        grid-template-rows: repeat(16, 1fr);
-        row-gap:50px;
-        position: relative;
-    }
-
-    .seg{
-        width: 150px;
+    .info-panel{
+        font-size: 12px;
     }
 }
 
-
-@media screen and (max-width: 800px){
+@media screen and (max-width: 650px){
     .title{
         font-size: 22px;
     }
 
     .subtitle{
-        font-size: 12px;
-        display: flex;
+        font-size: 15px;
+        display: block;
     }
 
     #subtitle-1{
-        margin-right: 12px;
-    }
-
-    .category{
-    font-size: 12px;
-    }
-
-    .information{
-        font-size: 12px;
+        margin-right: 0px;
     }
 
     #grid-container{
@@ -344,85 +341,15 @@ body{
         column-gap:50px;
         grid-template-rows: repeat(16, 1fr);
         row-gap:50px;
-        position: relative;
     }
 
     .seg{
         width: 100px;
     }
-}
 
-@media screen and (max-width: 800px){
-    .title{
-        font-size: 22px;
-    }
-
-    .subtitle{
-        font-size: 12px;
-        display: flex;
-    }
-
-    #subtitle-1{
-        margin-right: 12px;
-    }
-
-    .category{
-    font-size: 12px;
-    }
-
-    .information{
-        font-size: 12px;
-    }
-
-    #grid-container{
-        display: grid;
-        width:1450px;
-        grid-template-columns: repeat(10, 1fr);
-        column-gap:50px;
-        grid-template-rows: repeat(16, 1fr);
-        row-gap:50px;
-        position: relative;
-    }
-
-    .seg{
-        width: 100px;
-    }
-}
-
-@media screen and (max-width: 600px){
-    .title{
-        font-size: 22px;
-    }
-
-    .subtitle{
-        font-size: 10px;
-        display: flex;
-    }
-
-    #subtitle-1{
-        margin-right: 10px;
-    }
-
-    .category{
-    font-size: 10px;
-    }
-
-    .information{
-        font-size: 10px;
-    }
-
-    #grid-container{
-        display: grid;
-        width:1450px;
-        grid-template-columns: repeat(10, 1fr);
-        column-gap:50px;
-        grid-template-rows: repeat(16, 1fr);
-        row-gap:50px;
-        position: relative;
-    }
-
-    .seg{
-        width: 100px;
+    .info-panel{
+        height: 28vh;
+        top: 72vh;
     }
 
     .info-panel-content{
@@ -430,11 +357,59 @@ body{
     }
 
     .info-panel-content-mobile{
-        display: block;
+        display: grid;
+        font-size: 10px;
+    }
+
+    .character-img{
+        height: 10vh;
+        position: absolute;
+        top: 1vh;
     }
 }
 
+@media screen and (max-width: 500px){
+    .title{
+        font-size: 20px;
+    }
 
+    .subtitle{
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+    .title{
+        font-size: 18px;
+    }
+
+    .subtitle{
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 370px){
+    .title{
+        font-size: 17px;
+    }
+
+    .subtitle{
+        font-size: 11px;
+    }
+
+}
+
+@media screen and (max-width: 350px){
+    .title{
+        font-size: 15px;
+    }
+
+    .subtitle{
+        font-size: 9px;
+    }
+}
 
 
 
