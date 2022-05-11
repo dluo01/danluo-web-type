@@ -1,0 +1,238 @@
+{ 
+  "character-1":{
+    "no.": 1,
+    "name": "速",
+    "character": "<img class=\"character-img\" src=\"images/characters/character-01.png\">",
+    "segment": 8,
+    "date": "Sep 15, 2021",
+    "location": "(30.937663,<br>120.340004)",
+    "item": "a comic book cover"
+  },
+  "character-2":{
+    "name": "燃",
+    "character": "<img class=\"character-img\" src=\"images/characters/character-02.png\">",
+    "segment": 8,
+    "date": "Oct 7, 2021",
+    "location": "(31.906374,<br>120.298871)",
+    "item": "a flyer \nfound in the trash bin"
+  },
+  "character-3":{
+    "no.": 3,
+    "name": "净",
+    "character": "<img class=\"character-img\" src=\"images/characters/character-03.png\">",
+    "segment": 3,
+    "date": "Oct 6, 2021",
+    "location": "(31.908704,<br>120.295041)",
+    "item": "a stone tablet in \nthe Bridge Park"
+  },
+    
+  "character-4":{
+    "no.": 4,
+    "name": "冰",
+    "character": "<img class=\"character-img\" src=\"images/characters/character-04.png\">",
+    "segment": 8,
+    "date": "Oct 3, 2021",
+    "location": "(31.908048,<br>120.304619)",
+    "item": "a pack of sherbet \nfound in the \nsupermarket"
+  },
+
+
+  "character-5":{
+    "no.": 5,
+    "name": "本",
+    "character": "<img class=\"character-img\" src=\"images/characters/character-05.png\">",
+    "segment": 5,
+    "date": "Sep 15, 2021",
+    "location": "(31.908273,<br>120.271068)",
+    "item": "a glass display \nwall in the \nZhongshan Park"
+  },
+  "character-6":{
+    "no.": 6,
+    "name": "镜",
+    "character": "<img class=\"character-img\" src=\"images/characters/character-06.png\">",
+    "segment": 8,
+    "date": "Oct 6, 2021",
+    "location": "(31.908704,<br>120.295041)",
+    "item": "a grey concrete wall \nunder a highway bridge"
+  },
+  "character-7":{
+    "no.": 7,
+    "name": "檬",
+    "character": "<img class=\"character-img\" src=\"images/characters/character-07.png\">",
+    "segment": 8,
+    "date": "Oct 15, 2021",
+    "location": "(31.906374,<br>120.298871)",
+    "item": "a signboard of a bookstore called \n“under the lenom tree”"
+  },
+  "character-8":{
+    "no.": 8,
+    "name": "怕",
+    "character": "<img class=\"character-img\" src=\"images/characters/character-08.png\">",
+    "segment": 8,
+    "date": "Nov 1, 2021",
+    "location": "(31.907749,<br>120.299071)",
+    "item": "a small LED screen\nin front of a fruit strore"
+  },
+  "character-9":{
+    "no.": 9,
+    "name": "超",
+    "character": "<img class=\"character-img\" src=\"images/characters/character-09.png\">",
+    "segment": 6,
+    "date": "Sep 15, 2021",
+    "location": "(30.905804,<br>120.274634)",
+    "item": "a bubble tea \nshop’s menu"
+  },
+  "character-10":{
+    "no.": 10,
+    "name": "神",
+    "character": "<img class=\"character-img\" src=\"images/characters/character-10.png\">",
+    "segment": 5,
+    "date": "Sep 29, 2021",
+    "location": "(30.903235,<br>120.310969)",
+    "item": "a toy packaging found under a staircase"
+  },
+  "character-11":{
+    "no.": 11,
+    "name": "壶",
+    "character": "<img class=\"character-img\" src=\"images/characters/character-11.png\">",
+    "segment": 3,
+    "date": "Sep 20, 2021",
+    "location": "(30.902775,<br>120.301459)",
+    "item": "a piece of calligraphy work"
+  },
+  "character-12":{
+    "no.": 12,
+    "name": "桃",
+    "character": "<img class=\"character-img\" src=\"images/characters/character-12.png\">",
+    "segment": 8,
+    "date": "Oct 15, 2021",
+    "location": "(31.906374,<br>120.298871)",
+    "item": "a pack of peach-favored gummies"
+  },
+  "character-13":{
+    "no.": 13,
+    "name": "心",
+    "character": "<img class=\"character-img\" src=\"images/characters/character-13.png\">",
+    "segment": 3,
+    "date": "Sep 20, 2021",
+    "location": "(31.903202,<br>120.289287)",
+    "item": "a shop's billboard \nselling rice balls"
+  },
+  "character-14":{
+    "no.": 14,
+    "name": "珠",
+    "character": "<img class=\"character-img\" src=\"images/characters/character-14.png\">",
+    "segment": 7,
+    "date": "Sep 02, 2021",
+    "location": "(31.908048,<br>120.304619)",
+    "item": "a magic wand in a toy shop"
+  },
+  "character-15":{
+    "no.": 15,
+    "name": "削",
+    "character": "<img class=\"character-img\" src=\"images/characters/character-15.png\">",
+    "segment": 5,
+    "date": "Sep 15, 2021",
+    "location": "(31.908483,<br>120.271293)",
+    "item": "under the \neaves of a pavilion"
+  },
+  "character-16":{
+    "no.": 16,
+    "name": "走",
+    "character": "<img class=\"character-img\" src=\"images/characters/character-16.png\">",
+    "segment": 4,
+    "date": "Oct 03, 2021",
+    "location": "(31.908048,<br>120.304619)",
+    "item": "a toy packaging"
+  },
+  "character-17":{
+    "no.": 17,
+    "name": "风",
+    "character": "<img class=\"character-img\" src=\"images/characters/character-17.png\">",
+    "segment": 4,
+    "date": "Dec 12, 2021",
+    "location": "(31.906374,<br>120.298871)",
+    "item": "a pack of tissue \nin the bathroom"
+  },
+  "character-18":{
+    "no.": 18,
+    "name": "泡",
+    "character": "<img class=\"character-img\" src=\"images/characters/character-18.png\">",
+    "segment": 5,
+    "date": "Nov 10, 2021",
+    "location": "(31.906374,<br>120.298871)",
+    "item": "a pack of chicken with pickled peppers"
+  },
+  "character-19":{
+    "no.": 19,
+    "name": "花",
+    "character": "<img class=\"character-img\" src=\"images/characters/character-19.png\">",
+    "segment": 6,
+    "date": "Dec 1, 2021",
+    "location": "(30.903235,<br>120.310969)",
+    "item": "a beer bottle"
+  },
+  "character-20":{
+    "no.": 20,
+    "name": "彬",
+    "character": "<img class=\"character-img\" src=\"images/characters/character-20.png\">",
+    "segment": 8,
+    "date": "Sep 10, 2021",
+    "location": "(30.906179,<br>120. 294853）",
+    "item": "a billboard \nat the gate of Lotte Mart"
+  },
+  "character-21":{
+    "no.": 21,
+    "name": "感",
+    "character": "<img class=\"character-img\" src=\"images/characters/character-21.png\">",
+    "segment": 8,
+    "date": "Sep 25, 2021",
+    "location": "(31.907430,<br>120.302825)",
+    "item": "a sushi bar's poster"
+  },
+  "character-22":{
+    "no.": 22,
+    "name": "鸣",
+    "character": "<img class=\"character-img\" src=\"images/characters/character-22.png\">",
+    "segment": 6,
+    "date": "Sep 08, 2021",
+    "location": "(31.908048,<br>120.304619)",
+    "item": "a store selling \ntea products"
+  },
+  "character-23":{
+    "no.": 23,
+    "name": "昆",
+    "character": "<img class=\"character-img\" src=\"images/characters/character-23.png\">",
+    "segment": 7,
+    "date": "Oct 19, 2021",
+    "location": "(31.906374,<br>120.298871)",
+    "item": "a label of \na scented candle"
+  },
+  "character-24":{
+    "no.": 24,
+    "name": "然",
+    "character": "<img class=\"character-img\" src=\"images/characters/character-24.png\">",
+    "segment": 5,
+    "date": "Nov 10, 2021",
+    "location": "(30.905804,<br>120.274634)",
+    "item": "a boutique store"
+  },
+  "character-25":{
+    "no.": 25,
+    "name": "芙",
+    "character": "<img class=\"character-img\" src=\"images/characters/character-25.png\">",
+    "segment": 6,
+    "date": "Oct 08, 2021",
+    "location": "(31.907175,<br>120.275480)",
+    "item": "a local restaurant’s \nlogo"
+  },
+  "character-26":{
+    "no.": 26,
+    "name": "源",
+    "character": "<img class=\"character-img\" src=\"images/characters/character-26.png\">",
+    "segment": 8,
+    "date": "Sep 20, 2021",
+    "location": "(31.906896,<br>120.273304)",
+    "item": "an \namusement park's ticket"
+  }
+}
