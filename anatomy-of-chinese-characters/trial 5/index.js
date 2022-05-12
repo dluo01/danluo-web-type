@@ -274,8 +274,8 @@ window.onload = function(){
 	}
 }
 
-      $('.scroll-wrapper').scrollLeft( 2500 );
-      $('.scroll-wrapper').scrollTop( 2500 );
+      $('.scroll-wrapper').scrollLeft( 3000 );
+      $('.scroll-wrapper').scrollTop( 3000 );
 
       // not needed for functionality — but for refereence, 
       // you can output scroll positions
