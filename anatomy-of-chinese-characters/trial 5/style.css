@@ -13,12 +13,13 @@ body{
     font-family:"InputMono-Regular";
 }
 
+/*navigation on the top*/
 .navi{
     height: 10vh;
-    width: 100vw;
     padding-top: 4vh;
     padding-bottom: 4vh;
     padding-left: 4vw;
+    padding-right: 4vw;
     position: fixed;
     color: white;
     z-index: 100;
@@ -37,6 +38,7 @@ body{
     margin-right: 20px;
 }
 
+/*body part*/
 .scroll-wrapper{
     width: 100vw;
     height: 100vh;
@@ -44,19 +46,17 @@ body{
 }
 
 main{
-    border: 20px solid red;
-    width: 3900px;
-    height: 3900px;
+    width: 6300px;
+    height: 6300px;
 }
 
 #grid-container{
     display: grid;
-    width: 3900px;
-    grid-template-columns: repeat(10, 1fr);
+    width: 6300px;
+    grid-template-columns: repeat(16, 1fr);
     column-gap:100px;
     grid-template-rows: repeat(16, 1fr);
     row-gap:100px;
-    border: 20px solid red;
 }
 
 .seg{
@@ -76,14 +76,24 @@ main{
     }
 }
 
+/*info panel on the bottom*/
 .info-panel{
     background: white;
     height: 22vh;
     width: 100vw;
     position: fixed;
     top: 78vh;
-    display: none;
     font-size: 20px;
+    display: none;
+    z-index: 200;
+}
+
+.info-panel.show{  
+    display: block;
+}
+
+.active{
+    
 }
 
 .category{
@@ -91,14 +101,14 @@ main{
     padding-right: 4vw;
     padding-top: 2vh;
     display: grid;
-    grid-template-columns: 1fr 1.2fr 1fr 1fr 1fr;
+    grid-template-columns: 1.3fr 1fr 1fr 1fr 1fr;
 }
 
 .information{
     padding-left: 4vw;
     padding-right: 4vw;
     display: grid;
-    grid-template-columns: 1fr 1.2fr 1fr 1fr 1fr;
+    grid-template-columns: 1.3fr 1fr 1fr 1fr 1fr;
     position: relative;
     line-height: 150%;
     padding-top: 5vh;
@@ -153,6 +163,122 @@ data-test="xxx" like an class or id
     }
 }
 
+@media screen and (max-width: 1400px){
+    .title{
+        font-size: 33px;
+    }
+
+    .subtitle{
+        font-size: 18px;
+        display: flex;
+    }
+
+    #subtitle-1{
+        margin-right: 18px;
+    }
+
+    .info-panel{
+        font-size: 18px;
+    }
+
+    .character-img{
+        height: 14vh;
+        position: absolute;
+        top: 1vh;
+    }
+
+    main{
+        width: 5500px;
+        height: 5500px;
+    }
+
+    #grid-container{
+        display: grid;
+        width: 5500px;
+        grid-template-columns: repeat(16, 1fr);
+        column-gap:100px;
+        grid-template-rows: repeat(16, 1fr);
+        row-gap:100px;
+    }
+
+    .seg{
+        width: 250px;
+    }
+
+}
+
+@media screen and (max-width: 900px){
+    .title{
+        font-size: 31px;
+    }
+
+    .subtitle{
+        font-size: 16px;
+        display: flex;
+    }
+
+    #subtitle-1{
+        margin-right: 16px;
+    }
+
+    .info-panel{
+        font-size: 16px;
+    }
+
+    .character-img{
+        height: 12vh;
+        position: absolute;
+        top: 1vh;
+    }
+
+    main{
+        width: 4400px;
+        height: 4400px;
+    }
+
+    #grid-container{
+        display: grid;
+        width: 4400px;
+        grid-template-columns: repeat(16, 1fr);
+        column-gap:80px;
+        grid-template-rows: repeat(16, 1fr);
+        row-gap:80px;
+    }
+
+    .seg{
+        width: 200px;
+    }
+
+}
+
+@media screen and (max-width: 800px){
+    .title{
+        font-size: 31px;
+    }
+
+    .subtitle{
+        font-size: 16px;
+        display: block;
+    }
+
+    #subtitle-1{
+        margin-right: 0px;
+    }
+
+    .info-panel{
+        font-size: 14px;
+    }
+
+    .character-img{
+        height: 12vh;
+        position: absolute;
+        top: 1vh;
+    }
+
+}
+
+
+
 
 @media screen and (max-width: 650px){
     .title{
@@ -168,22 +294,10 @@ data-test="xxx" like an class or id
         margin-right: 0px;
     }
 
-    #grid-container{
-        display: grid;
-        width:1450px;
-        grid-template-columns: repeat(10, 1fr);
-        column-gap:50px;
-        grid-template-rows: repeat(16, 1fr);
-        row-gap:50px;
-    }
-
-    .seg{
-        width: 100px;
-    }
-
     .info-panel{
         height: 28vh;
         top: 72vh;
+        font-size: 10px;
     }
 
     .info-panel-content{
@@ -192,7 +306,6 @@ data-test="xxx" like an class or id
 
     .info-panel-content-mobile{
         display: grid;
-        font-size: 10px;
     }
 
     .character-img{
@@ -200,54 +313,25 @@ data-test="xxx" like an class or id
         position: absolute;
         top: 1vh;
     }
-}
 
-@media screen and (max-width: 500px){
-    .title{
-        font-size: 20px;
+    main{
+        width: 3150px;
+        height: 3150px;
     }
 
-    .subtitle{
-        font-size: 13px;
+    #grid-container{
+        display: grid;
+        width: 3150px;
+        grid-template-columns: repeat(16, 1fr);
+        column-gap:50px;
+        grid-template-rows: repeat(16, 1fr);
+        row-gap:50px;
     }
 
-}
-
-@media screen and (max-width: 400px){
-    .title{
-        font-size: 18px;
-    }
-
-    .subtitle{
-        font-size: 12px;
-    }
-
-}
-
-@media screen and (max-width: 370px){
-    .title{
-        font-size: 17px;
-    }
-
-    .subtitle{
-        font-size: 11px;
-    }
-
-}
-
-@media screen and (max-width: 350px){
-    .title{
-        font-size: 15px;
-    }
-
-    .subtitle{
-        font-size: 9px;
+    .seg{
+        width: 150px;
     }
 }
-
-
-
-
 
 
 

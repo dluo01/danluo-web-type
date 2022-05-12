@@ -163,6 +163,100 @@ images[158]='<img class="seg c-26" src="images/segments-white/segment-white-159.
 images[159]='<img class="seg c-26" src="images/segments-white/segment-white-160.png">'
 
 
+images[160]='<img class="seg c-1" src="images/segments-white/segment-white-01.png">'
+images[161]='<img class="seg c-1" src="images/segments-white/segment-white-02.png">'
+images[162]='<img class="seg c-1" src="images/segments-white/segment-white-03.png">'
+images[163]='<img class="seg c-1" src="images/segments-white/segment-white-04.png">'
+images[164]='<img class="seg c-1" src="images/segments-white/segment-white-05.png">'
+images[165]='<img class="seg c-1" src="images/segments-white/segment-white-06.png">'
+images[166]='<img class="seg c-1" src="images/segments-white/segment-white-07.png">'
+images[167]='<img class="seg c-1" src="images/segments-white/segment-white-08.png">'
+images[168]='<img class="seg c-2" src="images/segments-white/segment-white-09.png">'
+images[169]='<img class="seg c-2" src="images/segments-white/segment-white-10.png">'
+images[170]='<img class="seg c-2" src="images/segments-white/segment-white-11.png">'
+images[171]='<img class="seg c-2" src="images/segments-white/segment-white-12.png">'
+images[172]='<img class="seg c-2" src="images/segments-white/segment-white-13.png">'
+images[173]='<img class="seg c-2" src="images/segments-white/segment-white-14.png">'
+images[174]='<img class="seg c-2" src="images/segments-white/segment-white-15.png">'
+images[175]='<img class="seg c-2" src="images/segments-white/segment-white-16.png">'
+images[176]='<img class="seg c-3" src="images/segments-white/segment-white-17.png">'
+images[177]='<img class="seg c-3" src="images/segments-white/segment-white-18.png">'
+images[178]='<img class="seg c-3" src="images/segments-white/segment-white-19.png">'
+images[179]='<img class="seg c-4" src="images/segments-white/segment-white-20.png">'
+images[180]='<img class="seg c-4" src="images/segments-white/segment-white-21.png">'
+images[181]='<img class="seg c-4" src="images/segments-white/segment-white-22.png">'
+images[182]='<img class="seg c-4" src="images/segments-white/segment-white-23.png">'
+images[183]='<img class="seg c-4" src="images/segments-white/segment-white-24.png">'
+images[184]='<img class="seg c-4" src="images/segments-white/segment-white-25.png">'
+images[185]='<img class="seg c-4" src="images/segments-white/segment-white-26.png">'
+images[186]='<img class="seg c-4" src="images/segments-white/segment-white-27.png">'
+images[187]='<img class="seg c-5" src="images/segments-white/segment-white-28.png">'
+images[188]='<img class="seg c-5" src="images/segments-white/segment-white-29.png">'
+images[189]='<img class="seg c-5" src="images/segments-white/segment-white-30.png">'
+images[190]='<img class="seg c-5" src="images/segments-white/segment-white-31.png">'
+images[191]='<img class="seg c-5" src="images/segments-white/segment-white-32.png">'
+images[192]='<img class="seg c-6" src="images/segments-white/segment-white-33.png">'
+images[193]='<img class="seg c-6" src="images/segments-white/segment-white-34.png">'
+images[194]='<img class="seg c-6" src="images/segments-white/segment-white-35.png">'
+images[195]='<img class="seg c-6" src="images/segments-white/segment-white-36.png">'
+images[196]='<img class="seg c-6" src="images/segments-white/segment-white-37.png">'
+images[197]='<img class="seg c-6" src="images/segments-white/segment-white-38.png">'
+images[198]='<img class="seg c-6" src="images/segments-white/segment-white-39.png">'
+images[199]='<img class="seg c-6" src="images/segments-white/segment-white-40.png">'
+images[200]='<img class="seg c-7" src="images/segments-white/segment-white-41.png">'
+images[201]='<img class="seg c-7" src="images/segments-white/segment-white-42.png">'
+images[202]='<img class="seg c-7" src="images/segments-white/segment-white-43.png">'
+images[203]='<img class="seg c-7" src="images/segments-white/segment-white-44.png">'
+images[204]='<img class="seg c-7" src="images/segments-white/segment-white-45.png">'
+images[205]='<img class="seg c-7" src="images/segments-white/segment-white-46.png">'
+images[206]='<img class="seg c-7" src="images/segments-white/segment-white-47.png">'
+images[207]='<img class="seg c-7" src="images/segments-white/segment-white-48.png">'
+images[208]='<img class="seg c-8" src="images/segments-white/segment-white-49.png">'
+images[209]='<img class="seg c-8" src="images/segments-white/segment-white-50.png">'
+images[210]='<img class="seg c-8" src="images/segments-white/segment-white-51.png">'
+images[211]='<img class="seg c-8" src="images/segments-white/segment-white-52.png">'
+images[212]='<img class="seg c-8" src="images/segments-white/segment-white-53.png">'
+images[213]='<img class="seg c-8" src="images/segments-white/segment-white-54.png">'
+images[214]='<img class="seg c-8" src="images/segments-white/segment-white-55.png">'
+images[215]='<img class="seg c-8" src="images/segments-white/segment-white-56.png">'
+images[216]='<img class="seg c-9" src="images/segments-white/segment-white-57.png">'
+images[217]='<img class="seg c-9" src="images/segments-white/segment-white-58.png">'
+images[218]='<img class="seg c-9" src="images/segments-white/segment-white-59.png">'
+images[219]='<img class="seg c-9" src="images/segments-white/segment-white-60.png">'
+images[220]='<img class="seg c-9" src="images/segments-white/segment-white-61.png">'
+images[221]='<img class="seg c-9" src="images/segments-white/segment-white-62.png">'
+images[222]='<img class="seg c-10" src="images/segments-white/segment-white-63.png">'
+images[223]='<img class="seg c-10" src="images/segments-white/segment-white-64.png">'
+images[224]='<img class="seg c-10" src="images/segments-white/segment-white-65.png">'
+images[225]='<img class="seg c-10" src="images/segments-white/segment-white-66.png">'
+images[226]='<img class="seg c-10" src="images/segments-white/segment-white-67.png">'
+images[227]='<img class="seg c-11" src="images/segments-white/segment-white-68.png">'
+images[228]='<img class="seg c-11" src="images/segments-white/segment-white-69.png">'
+images[229]='<img class="seg c-11" src="images/segments-white/segment-white-70.png">'
+images[230]='<img class="seg c-12" src="images/segments-white/segment-white-71.png">'
+images[231]='<img class="seg c-12" src="images/segments-white/segment-white-72.png">'
+images[232]='<img class="seg c-12" src="images/segments-white/segment-white-73.png">'
+images[233]='<img class="seg c-12" src="images/segments-white/segment-white-74.png">'
+images[234]='<img class="seg c-12" src="images/segments-white/segment-white-75.png">'
+images[235]='<img class="seg c-12" src="images/segments-white/segment-white-76.png">'
+images[236]='<img class="seg c-12" src="images/segments-white/segment-white-77.png">'
+images[237]='<img class="seg c-12" src="images/segments-white/segment-white-78.png">'
+images[238]='<img class="seg c-13" src="images/segments-white/segment-white-79.png">'
+images[239]='<img class="seg c-13" src="images/segments-white/segment-white-80.png">'
+images[240]='<img class="seg c-13" src="images/segments-white/segment-white-81.png">'
+images[245]='<img class="seg c-14" src="images/segments-white/segment-white-82.png">'
+images[246]='<img class="seg c-14" src="images/segments-white/segment-white-83.png">'
+images[247]='<img class="seg c-14" src="images/segments-white/segment-white-84.png">'
+images[248]='<img class="seg c-14" src="images/segments-white/segment-white-85.png">'
+images[249]='<img class="seg c-14" src="images/segments-white/segment-white-86.png">'
+images[250]='<img class="seg c-14" src="images/segments-white/segment-white-87.png">'
+images[251]='<img class="seg c-14" src="images/segments-white/segment-white-88.png">'
+images[252]='<img class="seg c-15" src="images/segments-white/segment-white-89.png">'
+images[253]='<img class="seg c-15" src="images/segments-white/segment-white-90.png">'
+images[254]='<img class="seg c-15" src="images/segments-white/segment-white-91.png">'
+images[255]='<img class="seg c-15" src="images/segments-white/segment-white-92.png">'
+images[256]='<img class="seg c-15" src="images/segments-white/segment-white-93.png">'
+
 console.log(images.length);
 
 var i=0;
@@ -180,13 +274,594 @@ window.onload = function(){
 	}
 }
 
+      $('.scroll-wrapper').scrollLeft( 2500 );
+      $('.scroll-wrapper').scrollTop( 2500 );
+
+      // not needed for functionality — but for refereence, 
+      // you can output scroll positions
+      $('.scroll-wrapper').scroll(function(){
+        let x = $(this).scrollLeft();
+        let y = $(this).scrollTop();
+        console.log(x, y);
+      });
+
 $.getJSON("info.json")
       .done(function( data ) {
          console.log(data);
 
-      $('.c-1').click(function(){
-            $('.info-panel').toggle();
+      // $('.c-1').click(function(){
+      //       $('.info-panel').toggle();
 
+      //       let info = data["character-1"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   });   
+
+      // $('.c-2').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-2"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-3').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-3"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-4').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-4"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-5').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-5"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-6').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-6"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-7').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-7"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-8').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-8"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-9').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-9"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-10').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-10"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-11').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-11"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-12').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-12"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-13').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-13"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-14').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-14"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-15').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-15"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-16').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-16"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-17').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-17"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-18').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-18"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-19').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-19"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-20').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-20"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-21').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-21"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-22').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-22"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-23').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-23"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-24').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-24"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-25').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-25"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-26').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-26"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      $('.c-1').click(function(){
             let info = data["character-1"];
             console.log(info);
 
@@ -204,11 +879,29 @@ $.getJSON("info.json")
 
             let item= info["item"];
             $('.item').html(item);
-        });   
 
-      $('.c-2').click(function(){
-            $('.info-panel').toggle();
+            if( $(this).hasClass('active') ){
+              $('.info-panel').removeClass('show');
 
+            }else{
+              $('.active').removeClass('active');
+              
+              //populate panel with new info
+              $('.character').html(character);
+              $('.segments').html(segments);
+              $('.date').html(date);
+              $('.location').html(location);
+              $('.item').html(item);
+
+              //open up panel
+              $('.info-panel').addClass('show');
+
+              //add active class to clicked item
+              $(this).addClass('active');
+            }
+        }); 
+
+        $('.c-2').click(function(){
             let info = data["character-2"];
             console.log(info);
 
@@ -226,11 +919,29 @@ $.getJSON("info.json")
 
             let item= info["item"];
             $('.item').html(item);
-        }); 
 
-      $('.c-3').click(function(){
-            $('.info-panel').toggle();
+            if( $(this).hasClass('active') ){
+              $('.info-panel').removeClass('show');
 
+            }else{
+              $('.active').removeClass('active');
+              
+              //populate panel with new info
+              $('.character').html(character);
+              $('.segments').html(segments);
+              $('.date').html(date);
+              $('.location').html(location);
+              $('.item').html(item);
+
+              //open up panel
+              $('.info-panel').addClass('show');
+
+              //add active class to clicked item
+              $(this).addClass('active');
+            }
+        });
+
+        $('.c-3').click(function(){
             let info = data["character-3"];
             console.log(info);
 
@@ -248,11 +959,29 @@ $.getJSON("info.json")
 
             let item= info["item"];
             $('.item').html(item);
-        }); 
 
-      $('.c-4').click(function(){
-            $('.info-panel').toggle();
+            if( $(this).hasClass('active') ){
+              $('.info-panel').removeClass('show');
 
+            }else{
+              $('.active').removeClass('active');
+              
+              //populate panel with new info
+              $('.character').html(character);
+              $('.segments').html(segments);
+              $('.date').html(date);
+              $('.location').html(location);
+              $('.item').html(item);
+
+              //open up panel
+              $('.info-panel').addClass('show');
+
+              //add active class to clicked item
+              $(this).addClass('active');
+            }
+        });
+
+        $('.c-4').click(function(){
             let info = data["character-4"];
             console.log(info);
 
@@ -270,11 +999,29 @@ $.getJSON("info.json")
 
             let item= info["item"];
             $('.item').html(item);
-        }); 
 
-      $('.c-5').click(function(){
-            $('.info-panel').toggle();
+            if( $(this).hasClass('active') ){
+              $('.info-panel').removeClass('show');
 
+            }else{
+              $('.active').removeClass('active');
+              
+              //populate panel with new info
+              $('.character').html(character);
+              $('.segments').html(segments);
+              $('.date').html(date);
+              $('.location').html(location);
+              $('.item').html(item);
+
+              //open up panel
+              $('.info-panel').addClass('show');
+
+              //add active class to clicked item
+              $(this).addClass('active');
+            }
+        });
+
+        $('.c-5').click(function(){
             let info = data["character-5"];
             console.log(info);
 
@@ -292,11 +1039,29 @@ $.getJSON("info.json")
 
             let item= info["item"];
             $('.item').html(item);
-        }); 
 
-      $('.c-6').click(function(){
-            $('.info-panel').toggle();
+            if( $(this).hasClass('active') ){
+              $('.info-panel').removeClass('show');
 
+            }else{
+              $('.active').removeClass('active');
+              
+              //populate panel with new info
+              $('.character').html(character);
+              $('.segments').html(segments);
+              $('.date').html(date);
+              $('.location').html(location);
+              $('.item').html(item);
+
+              //open up panel
+              $('.info-panel').addClass('show');
+
+              //add active class to clicked item
+              $(this).addClass('active');
+            }
+        });  
+
+        $('.c-6').click(function(){
             let info = data["character-6"];
             console.log(info);
 
@@ -314,11 +1079,29 @@ $.getJSON("info.json")
 
             let item= info["item"];
             $('.item').html(item);
-        }); 
 
-      $('.c-7').click(function(){
-            $('.info-panel').toggle();
+            if( $(this).hasClass('active') ){
+              $('.info-panel').removeClass('show');
 
+            }else{
+              $('.active').removeClass('active');
+              
+              //populate panel with new info
+              $('.character').html(character);
+              $('.segments').html(segments);
+              $('.date').html(date);
+              $('.location').html(location);
+              $('.item').html(item);
+
+              //open up panel
+              $('.info-panel').addClass('show');
+
+              //add active class to clicked item
+              $(this).addClass('active');
+            }
+        });
+
+        $('.c-7').click(function(){
             let info = data["character-7"];
             console.log(info);
 
@@ -336,11 +1119,29 @@ $.getJSON("info.json")
 
             let item= info["item"];
             $('.item').html(item);
-        }); 
 
-      $('.c-8').click(function(){
-            $('.info-panel').toggle();
+            if( $(this).hasClass('active') ){
+              $('.info-panel').removeClass('show');
 
+            }else{
+              $('.active').removeClass('active');
+              
+              //populate panel with new info
+              $('.character').html(character);
+              $('.segments').html(segments);
+              $('.date').html(date);
+              $('.location').html(location);
+              $('.item').html(item);
+
+              //open up panel
+              $('.info-panel').addClass('show');
+
+              //add active class to clicked item
+              $(this).addClass('active');
+            }
+        });
+ 
+        $('.c-8').click(function(){
             let info = data["character-8"];
             console.log(info);
 
@@ -358,11 +1159,29 @@ $.getJSON("info.json")
 
             let item= info["item"];
             $('.item').html(item);
-        }); 
 
-      $('.c-9').click(function(){
-            $('.info-panel').toggle();
+            if( $(this).hasClass('active') ){
+              $('.info-panel').removeClass('show');
 
+            }else{
+              $('.active').removeClass('active');
+              
+              //populate panel with new info
+              $('.character').html(character);
+              $('.segments').html(segments);
+              $('.date').html(date);
+              $('.location').html(location);
+              $('.item').html(item);
+
+              //open up panel
+              $('.info-panel').addClass('show');
+
+              //add active class to clicked item
+              $(this).addClass('active');
+            }
+        });
+
+        $('.c-9').click(function(){
             let info = data["character-9"];
             console.log(info);
 
@@ -380,11 +1199,29 @@ $.getJSON("info.json")
 
             let item= info["item"];
             $('.item').html(item);
-        }); 
 
-      $('.c-10').click(function(){
-            $('.info-panel').toggle();
+            if( $(this).hasClass('active') ){
+              $('.info-panel').removeClass('show');
 
+            }else{
+              $('.active').removeClass('active');
+              
+              //populate panel with new info
+              $('.character').html(character);
+              $('.segments').html(segments);
+              $('.date').html(date);
+              $('.location').html(location);
+              $('.item').html(item);
+
+              //open up panel
+              $('.info-panel').addClass('show');
+
+              //add active class to clicked item
+              $(this).addClass('active');
+            }
+        });
+
+        $('.c-10').click(function(){
             let info = data["character-10"];
             console.log(info);
 
@@ -402,11 +1239,29 @@ $.getJSON("info.json")
 
             let item= info["item"];
             $('.item').html(item);
-        }); 
 
-      $('.c-11').click(function(){
-            $('.info-panel').toggle();
+            if( $(this).hasClass('active') ){
+              $('.info-panel').removeClass('show');
 
+            }else{
+              $('.active').removeClass('active');
+              
+              //populate panel with new info
+              $('.character').html(character);
+              $('.segments').html(segments);
+              $('.date').html(date);
+              $('.location').html(location);
+              $('.item').html(item);
+
+              //open up panel
+              $('.info-panel').addClass('show');
+
+              //add active class to clicked item
+              $(this).addClass('active');
+            }
+        });
+
+        $('.c-11').click(function(){
             let info = data["character-11"];
             console.log(info);
 
@@ -424,11 +1279,29 @@ $.getJSON("info.json")
 
             let item= info["item"];
             $('.item').html(item);
-        }); 
 
-      $('.c-12').click(function(){
-            $('.info-panel').toggle();
+            if( $(this).hasClass('active') ){
+              $('.info-panel').removeClass('show');
 
+            }else{
+              $('.active').removeClass('active');
+              
+              //populate panel with new info
+              $('.character').html(character);
+              $('.segments').html(segments);
+              $('.date').html(date);
+              $('.location').html(location);
+              $('.item').html(item);
+
+              //open up panel
+              $('.info-panel').addClass('show');
+
+              //add active class to clicked item
+              $(this).addClass('active');
+            }
+        });
+
+        $('.c-12').click(function(){
             let info = data["character-12"];
             console.log(info);
 
@@ -446,11 +1319,29 @@ $.getJSON("info.json")
 
             let item= info["item"];
             $('.item').html(item);
-        }); 
 
-      $('.c-13').click(function(){
-            $('.info-panel').toggle();
+            if( $(this).hasClass('active') ){
+              $('.info-panel').removeClass('show');
 
+            }else{
+              $('.active').removeClass('active');
+              
+              //populate panel with new info
+              $('.character').html(character);
+              $('.segments').html(segments);
+              $('.date').html(date);
+              $('.location').html(location);
+              $('.item').html(item);
+
+              //open up panel
+              $('.info-panel').addClass('show');
+
+              //add active class to clicked item
+              $(this).addClass('active');
+            }
+        });
+
+        $('.c-13').click(function(){
             let info = data["character-13"];
             console.log(info);
 
@@ -468,11 +1359,29 @@ $.getJSON("info.json")
 
             let item= info["item"];
             $('.item').html(item);
-        }); 
 
-      $('.c-14').click(function(){
-            $('.info-panel').toggle();
+            if( $(this).hasClass('active') ){
+              $('.info-panel').removeClass('show');
 
+            }else{
+              $('.active').removeClass('active');
+              
+              //populate panel with new info
+              $('.character').html(character);
+              $('.segments').html(segments);
+              $('.date').html(date);
+              $('.location').html(location);
+              $('.item').html(item);
+
+              //open up panel
+              $('.info-panel').addClass('show');
+
+              //add active class to clicked item
+              $(this).addClass('active');
+            }
+        });
+
+        $('.c-14').click(function(){
             let info = data["character-14"];
             console.log(info);
 
@@ -490,11 +1399,29 @@ $.getJSON("info.json")
 
             let item= info["item"];
             $('.item').html(item);
-        }); 
 
-      $('.c-15').click(function(){
-            $('.info-panel').toggle();
+            if( $(this).hasClass('active') ){
+              $('.info-panel').removeClass('show');
 
+            }else{
+              $('.active').removeClass('active');
+              
+              //populate panel with new info
+              $('.character').html(character);
+              $('.segments').html(segments);
+              $('.date').html(date);
+              $('.location').html(location);
+              $('.item').html(item);
+
+              //open up panel
+              $('.info-panel').addClass('show');
+
+              //add active class to clicked item
+              $(this).addClass('active');
+            }
+        });
+
+        $('.c-15').click(function(){
             let info = data["character-15"];
             console.log(info);
 
@@ -512,11 +1439,29 @@ $.getJSON("info.json")
 
             let item= info["item"];
             $('.item').html(item);
-        }); 
 
-      $('.c-16').click(function(){
-            $('.info-panel').toggle();
+            if( $(this).hasClass('active') ){
+              $('.info-panel').removeClass('show');
 
+            }else{
+              $('.active').removeClass('active');
+              
+              //populate panel with new info
+              $('.character').html(character);
+              $('.segments').html(segments);
+              $('.date').html(date);
+              $('.location').html(location);
+              $('.item').html(item);
+
+              //open up panel
+              $('.info-panel').addClass('show');
+
+              //add active class to clicked item
+              $(this).addClass('active');
+            }
+        });
+
+        $('.c-16').click(function(){
             let info = data["character-16"];
             console.log(info);
 
@@ -534,11 +1479,29 @@ $.getJSON("info.json")
 
             let item= info["item"];
             $('.item').html(item);
-        }); 
 
-      $('.c-17').click(function(){
-            $('.info-panel').toggle();
+            if( $(this).hasClass('active') ){
+              $('.info-panel').removeClass('show');
 
+            }else{
+              $('.active').removeClass('active');
+              
+              //populate panel with new info
+              $('.character').html(character);
+              $('.segments').html(segments);
+              $('.date').html(date);
+              $('.location').html(location);
+              $('.item').html(item);
+
+              //open up panel
+              $('.info-panel').addClass('show');
+
+              //add active class to clicked item
+              $(this).addClass('active');
+            }
+        });
+
+        $('.c-17').click(function(){
             let info = data["character-17"];
             console.log(info);
 
@@ -556,11 +1519,29 @@ $.getJSON("info.json")
 
             let item= info["item"];
             $('.item').html(item);
-        }); 
 
-      $('.c-18').click(function(){
-            $('.info-panel').toggle();
+            if( $(this).hasClass('active') ){
+              $('.info-panel').removeClass('show');
 
+            }else{
+              $('.active').removeClass('active');
+              
+              //populate panel with new info
+              $('.character').html(character);
+              $('.segments').html(segments);
+              $('.date').html(date);
+              $('.location').html(location);
+              $('.item').html(item);
+
+              //open up panel
+              $('.info-panel').addClass('show');
+
+              //add active class to clicked item
+              $(this).addClass('active');
+            }
+        });
+
+        $('.c-18').click(function(){
             let info = data["character-18"];
             console.log(info);
 
@@ -578,11 +1559,29 @@ $.getJSON("info.json")
 
             let item= info["item"];
             $('.item').html(item);
-        }); 
 
-      $('.c-19').click(function(){
-            $('.info-panel').toggle();
+            if( $(this).hasClass('active') ){
+              $('.info-panel').removeClass('show');
 
+            }else{
+              $('.active').removeClass('active');
+              
+              //populate panel with new info
+              $('.character').html(character);
+              $('.segments').html(segments);
+              $('.date').html(date);
+              $('.location').html(location);
+              $('.item').html(item);
+
+              //open up panel
+              $('.info-panel').addClass('show');
+
+              //add active class to clicked item
+              $(this).addClass('active');
+            }
+        });
+
+        $('.c-19').click(function(){
             let info = data["character-19"];
             console.log(info);
 
@@ -600,11 +1599,29 @@ $.getJSON("info.json")
 
             let item= info["item"];
             $('.item').html(item);
-        }); 
 
-      $('.c-20').click(function(){
-            $('.info-panel').toggle();
+            if( $(this).hasClass('active') ){
+              $('.info-panel').removeClass('show');
 
+            }else{
+              $('.active').removeClass('active');
+              
+              //populate panel with new info
+              $('.character').html(character);
+              $('.segments').html(segments);
+              $('.date').html(date);
+              $('.location').html(location);
+              $('.item').html(item);
+
+              //open up panel
+              $('.info-panel').addClass('show');
+
+              //add active class to clicked item
+              $(this).addClass('active');
+            }
+        });
+
+        $('.c-20').click(function(){
             let info = data["character-20"];
             console.log(info);
 
@@ -622,11 +1639,29 @@ $.getJSON("info.json")
 
             let item= info["item"];
             $('.item').html(item);
-        }); 
 
-      $('.c-21').click(function(){
-            $('.info-panel').toggle();
+            if( $(this).hasClass('active') ){
+              $('.info-panel').removeClass('show');
 
+            }else{
+              $('.active').removeClass('active');
+              
+              //populate panel with new info
+              $('.character').html(character);
+              $('.segments').html(segments);
+              $('.date').html(date);
+              $('.location').html(location);
+              $('.item').html(item);
+
+              //open up panel
+              $('.info-panel').addClass('show');
+
+              //add active class to clicked item
+              $(this).addClass('active');
+            }
+        });
+
+        $('.c-21').click(function(){
             let info = data["character-21"];
             console.log(info);
 
@@ -644,11 +1679,29 @@ $.getJSON("info.json")
 
             let item= info["item"];
             $('.item').html(item);
-        }); 
 
-      $('.c-22').click(function(){
-            $('.info-panel').toggle();
+            if( $(this).hasClass('active') ){
+              $('.info-panel').removeClass('show');
 
+            }else{
+              $('.active').removeClass('active');
+              
+              //populate panel with new info
+              $('.character').html(character);
+              $('.segments').html(segments);
+              $('.date').html(date);
+              $('.location').html(location);
+              $('.item').html(item);
+
+              //open up panel
+              $('.info-panel').addClass('show');
+
+              //add active class to clicked item
+              $(this).addClass('active');
+            }
+        });
+
+        $('.c-22').click(function(){
             let info = data["character-22"];
             console.log(info);
 
@@ -666,11 +1719,29 @@ $.getJSON("info.json")
 
             let item= info["item"];
             $('.item').html(item);
-        }); 
 
-      $('.c-23').click(function(){
-            $('.info-panel').toggle();
+            if( $(this).hasClass('active') ){
+              $('.info-panel').removeClass('show');
 
+            }else{
+              $('.active').removeClass('active');
+              
+              //populate panel with new info
+              $('.character').html(character);
+              $('.segments').html(segments);
+              $('.date').html(date);
+              $('.location').html(location);
+              $('.item').html(item);
+
+              //open up panel
+              $('.info-panel').addClass('show');
+
+              //add active class to clicked item
+              $(this).addClass('active');
+            }
+        });
+
+        $('.c-23').click(function(){
             let info = data["character-23"];
             console.log(info);
 
@@ -688,11 +1759,29 @@ $.getJSON("info.json")
 
             let item= info["item"];
             $('.item').html(item);
-        }); 
 
-      $('.c-24').click(function(){
-            $('.info-panel').toggle();
+            if( $(this).hasClass('active') ){
+              $('.info-panel').removeClass('show');
 
+            }else{
+              $('.active').removeClass('active');
+              
+              //populate panel with new info
+              $('.character').html(character);
+              $('.segments').html(segments);
+              $('.date').html(date);
+              $('.location').html(location);
+              $('.item').html(item);
+
+              //open up panel
+              $('.info-panel').addClass('show');
+
+              //add active class to clicked item
+              $(this).addClass('active');
+            }
+        });
+
+        $('.c-24').click(function(){
             let info = data["character-24"];
             console.log(info);
 
@@ -710,11 +1799,29 @@ $.getJSON("info.json")
 
             let item= info["item"];
             $('.item').html(item);
-        }); 
 
-      $('.c-25').click(function(){
-            $('.info-panel').toggle();
+            if( $(this).hasClass('active') ){
+              $('.info-panel').removeClass('show');
 
+            }else{
+              $('.active').removeClass('active');
+              
+              //populate panel with new info
+              $('.character').html(character);
+              $('.segments').html(segments);
+              $('.date').html(date);
+              $('.location').html(location);
+              $('.item').html(item);
+
+              //open up panel
+              $('.info-panel').addClass('show');
+
+              //add active class to clicked item
+              $(this).addClass('active');
+            }
+        });
+
+        $('.c-25').click(function(){
             let info = data["character-25"];
             console.log(info);
 
@@ -732,11 +1839,29 @@ $.getJSON("info.json")
 
             let item= info["item"];
             $('.item').html(item);
-        }); 
 
-      $('.c-26').click(function(){
-            $('.info-panel').toggle();
+            if( $(this).hasClass('active') ){
+              $('.info-panel').removeClass('show');
 
+            }else{
+              $('.active').removeClass('active');
+              
+              //populate panel with new info
+              $('.character').html(character);
+              $('.segments').html(segments);
+              $('.date').html(date);
+              $('.location').html(location);
+              $('.item').html(item);
+
+              //open up panel
+              $('.info-panel').addClass('show');
+
+              //add active class to clicked item
+              $(this).addClass('active');
+            }
+        });
+
+        $('.c-26').click(function(){
             let info = data["character-26"];
             console.log(info);
 
@@ -754,16 +1879,27 @@ $.getJSON("info.json")
 
             let item= info["item"];
             $('.item').html(item);
-        }); 
 
+            if( $(this).hasClass('active') ){
+              $('.info-panel').removeClass('show');
 
+            }else{
+              $('.active').removeClass('active');
+              
+              //populate panel with new info
+              $('.character').html(character);
+              $('.segments').html(segments);
+              $('.date').html(date);
+              $('.location').html(location);
+              $('.item').html(item);
 
+              //open up panel
+              $('.info-panel').addClass('show');
 
-
-
-
-
-
+              //add active class to clicked item
+              $(this).addClass('active');
+            }
+        });
 
       });
 

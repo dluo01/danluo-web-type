@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function(){   
 
 var images=new Array()
 images[0]='<img class="seg c-1" src="images/segments-white/segment-white-01.png">'
@@ -162,6 +162,7 @@ images[157]='<img class="seg c-26" src="images/segments-white/segment-white-158.
 images[158]='<img class="seg c-26" src="images/segments-white/segment-white-159.png">'
 images[159]='<img class="seg c-26" src="images/segments-white/segment-white-160.png">'
 
+
 images[160]='<img class="seg c-1" src="images/segments-white/segment-white-01.png">'
 images[161]='<img class="seg c-1" src="images/segments-white/segment-white-02.png">'
 images[162]='<img class="seg c-1" src="images/segments-white/segment-white-03.png">'
@@ -256,27 +257,25 @@ images[254]='<img class="seg c-15" src="images/segments-white/segment-white-91.p
 images[255]='<img class="seg c-15" src="images/segments-white/segment-white-92.png">'
 images[256]='<img class="seg c-15" src="images/segments-white/segment-white-93.png">'
 
-
-
 console.log(images.length);
 
 var i=0;
 var random
 
 window.onload = function(){
-  while (i<images.length){
-    random = Math.floor(Math.random()*images.length)
-    if (images[random]!="selected"){
-      let aaa = document.getElementById("grid-container");
-      aaa.innerHTML += (images[random]);
-      images[random]="selected"
-      i++
-    }
-  }
+	while (i<images.length){
+		random = Math.floor(Math.random()*images.length)
+		if (images[random]!="selected"){
+			let aaa = document.getElementById("grid-container");
+			aaa.innerHTML += (images[random]);
+			images[random]="selected"
+			i++
+		}
+	}
 }
 
-      $('.scroll-wrapper').scrollLeft( 3000 );
-      $('.scroll-wrapper').scrollTop( 3000 );
+      $('.scroll-wrapper').scrollLeft( 2500 );
+      $('.scroll-wrapper').scrollTop( 2500 );
 
       // not needed for functionality — but for refereence, 
       // you can output scroll positions
@@ -286,11 +285,583 @@ window.onload = function(){
         console.log(x, y);
       });
 
-      $.getJSON("info.json")
+$.getJSON("info.json")
       .done(function( data ) {
          console.log(data);
 
-       $('.c-1').click(function(){
+      // $('.c-1').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-1"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   });   
+
+      // $('.c-2').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-2"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-3').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-3"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-4').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-4"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-5').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-5"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-6').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-6"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-7').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-7"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-8').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-8"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-9').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-9"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-10').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-10"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-11').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-11"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-12').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-12"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-13').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-13"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-14').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-14"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-15').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-15"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-16').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-16"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-17').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-17"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-18').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-18"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-19').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-19"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-20').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-20"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-21').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-21"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-22').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-22"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-23').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-23"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-24').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-24"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-25').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-25"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      // $('.c-26').click(function(){
+      //       $('.info-panel').toggle();
+
+      //       let info = data["character-26"];
+      //       console.log(info);
+
+      //       let character = info["character"]; //info.Character
+      //       $('.character').html(character);
+            
+      //       let segments = info["segment"];
+      //       $('.segments').html(segments);
+
+      //       let date = info["date"];
+      //       $('.date').html(date);
+
+      //       let location = info["location"];
+      //       $('.location').html(location);
+
+      //       let item= info["item"];
+      //       $('.item').html(item);
+      //   }); 
+
+      $('.c-1').click(function(){
             let info = data["character-1"];
             console.log(info);
 
@@ -1331,5 +1902,6 @@ window.onload = function(){
         });
 
       });
-     
-    });
+
+}); 
+

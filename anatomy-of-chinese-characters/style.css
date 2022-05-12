@@ -1,7 +1,6 @@
 *{
     margin:0;
     padding:0;
-    box-sizing: border-box;
 }
 
 @font-face {
@@ -17,10 +16,10 @@ body{
 /*navigation on the top*/
 .navi{
     height: 10vh;
-    width: 100vw;
     padding-top: 4vh;
     padding-bottom: 4vh;
     padding-left: 4vw;
+    padding-right: 4vw;
     position: fixed;
     color: white;
     z-index: 100;
@@ -39,81 +38,16 @@ body{
     margin-right: 20px;
 }
 
-/*info panel on the bottom*/
-.info-panel{
-    background: white;
-    height: 22vh;
-    width: 100vw;
-    position: fixed;
-    top: 78vh;
-    display: none;
-    font-size: 20px;
-    z-index: 200;
-}
-
-.info-panel.show{
-	background: white;
-    height: 22vh;
-    width: 100vw;
-    position: fixed;
-    top: 78vh;
-    display: block;
-    font-size: 20px;
-    z-index: 200;
-}
-
-.active{
-	
-}
-
-.category{
-    padding-left: 4vw;
-    padding-right: 4vw;
-    padding-top: 2vh;
-    display: grid;
-    grid-template-columns: 1fr 1.2fr 1fr 1fr 1fr;
-}
-
-.information{
-    padding-left: 4vw;
-    padding-right: 4vw;
-    display: grid;
-    grid-template-columns: 1fr 1.2fr 1fr 1fr 1fr;
-    position: relative;
-    line-height: 150%;
-    padding-top: 5vh;
-}
-
-.character-img{
-    height: 15vh;
-    position: absolute;
-    top: 1vh;
-}
-
-.info-panel-content-mobile{
-    padding-left: 4vw;
-    padding-right: 4vw;
-    padding-top: 2vh;
-    grid-template-rows: 3fr 1fr 1fr 1fr 1fr;
-    row-gap: 8px;
-    display: none;
-}
-
-.row{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-}
-
 /*body part*/
 .scroll-wrapper{
-	width:  100vw;
-	height: 100vh;
-	overflow: scroll;
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
 }
 
 main{
-	width: 6300px;
-	height: 6300px;
+    width: 6300px;
+    height: 6300px;
 }
 
 #grid-container{
@@ -142,7 +76,74 @@ main{
     }
 }
 
-/*responsive*/
+/*info panel on the bottom*/
+.info-panel{
+    background: white;
+    height: 22vh;
+    width: 100vw;
+    position: fixed;
+    top: 78vh;
+    font-size: 20px;
+    display: none;
+    z-index: 200;
+}
+
+.info-panel.show{  
+    display: block;
+}
+
+.active{
+    
+}
+
+.category{
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 2vh;
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1fr 1fr 1fr;
+}
+
+.information{
+    padding-left: 4vw;
+    padding-right: 4vw;
+    display: grid;
+    grid-template-columns: 1.3fr 1fr 1fr 1fr 1fr;
+    position: relative;
+    line-height: 150%;
+    padding-top: 5vh;
+}
+
+.character-img{
+    height: 15vh;
+    position: absolute;
+    top: 1vh;
+}
+
+.info-panel-content-mobile{
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 2vh;
+    grid-template-rows: 3fr 1fr 1fr 1fr 1fr;
+    row-gap: 8px;
+    display: none;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+
+
+/*Q: 
+0. info-panel-content-mobile grid doesn't function?
+1. How to make the viewport sit in the middle of the content div? 
+2. Should I change click-toggle to another command so that there is no confusing behaviour? 
+data-test="xxx" like an class or id
+2. How to add the visitor number count/click count/travel distance count? */
+
+
 @media screen and (max-width: 1900px){
     .title{
         font-size: 35px;
@@ -162,6 +163,122 @@ main{
     }
 }
 
+@media screen and (max-width: 1400px){
+    .title{
+        font-size: 33px;
+    }
+
+    .subtitle{
+        font-size: 18px;
+        display: flex;
+    }
+
+    #subtitle-1{
+        margin-right: 18px;
+    }
+
+    .info-panel{
+        font-size: 18px;
+    }
+
+    .character-img{
+        height: 14vh;
+        position: absolute;
+        top: 1vh;
+    }
+
+    main{
+        width: 5500px;
+        height: 5500px;
+    }
+
+    #grid-container{
+        display: grid;
+        width: 5500px;
+        grid-template-columns: repeat(16, 1fr);
+        column-gap:100px;
+        grid-template-rows: repeat(16, 1fr);
+        row-gap:100px;
+    }
+
+    .seg{
+        width: 250px;
+    }
+
+}
+
+@media screen and (max-width: 900px){
+    .title{
+        font-size: 31px;
+    }
+
+    .subtitle{
+        font-size: 16px;
+        display: flex;
+    }
+
+    #subtitle-1{
+        margin-right: 16px;
+    }
+
+    .info-panel{
+        font-size: 16px;
+    }
+
+    .character-img{
+        height: 12vh;
+        position: absolute;
+        top: 1vh;
+    }
+
+    main{
+        width: 4400px;
+        height: 4400px;
+    }
+
+    #grid-container{
+        display: grid;
+        width: 4400px;
+        grid-template-columns: repeat(16, 1fr);
+        column-gap:80px;
+        grid-template-rows: repeat(16, 1fr);
+        row-gap:80px;
+    }
+
+    .seg{
+        width: 200px;
+    }
+
+}
+
+@media screen and (max-width: 800px){
+    .title{
+        font-size: 31px;
+    }
+
+    .subtitle{
+        font-size: 16px;
+        display: block;
+    }
+
+    #subtitle-1{
+        margin-right: 0px;
+    }
+
+    .info-panel{
+        font-size: 14px;
+    }
+
+    .character-img{
+        height: 12vh;
+        position: absolute;
+        top: 1vh;
+    }
+
+}
+
+
+
 
 @media screen and (max-width: 650px){
     .title{
@@ -177,13 +294,18 @@ main{
         margin-right: 0px;
     }
 
+    .info-panel{
+        height: 28vh;
+        top: 72vh;
+        font-size: 10px;
+    }
+
     .info-panel-content{
         display: none;
     }
 
     .info-panel-content-mobile{
         display: grid;
-        font-size: 10px;
     }
 
     .character-img{
@@ -191,12 +313,25 @@ main{
         position: absolute;
         top: 1vh;
     }
+
+    main{
+        width: 3150px;
+        height: 3150px;
+    }
+
+    #grid-container{
+        display: grid;
+        width: 3150px;
+        grid-template-columns: repeat(16, 1fr);
+        column-gap:50px;
+        grid-template-rows: repeat(16, 1fr);
+        row-gap:50px;
+    }
+
+    .seg{
+        width: 150px;
+    }
 }
-
-
-
-
-
 
 
 
