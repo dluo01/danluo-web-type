@@ -1,17 +1,53 @@
-.body{
-	margin: 50px;
+@font-face {
+  font-family: "choreo";
+  src: url("Choreo-ChoreoVF.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "roslindale-display-light";
+  src: url("fonts/Roslindale-DisplayLight-Testing.woff2") format("woff2");
+}
+
+body{
+	padding-left: 4vw;
+	background: pink;
 }
 
 a{
-	all: reset;
+	text-decoration: underline;
+	color: black;
 }
 
-.week2{
-	width: 18vw;
-	display:inline-flex;
-	justify-content: space-between;
+h1,h2{
+	font-family: "choreo";
+	text-transform: uppercase;
 }
 
-a{
-	text-decoration: none;
+h1{
+	font-size: 60px;
+	font-weight: 300;
+	animation: transformation 2.5s infinite alternate;
+}
+
+@keyframes transformation{
+  0%{
+    font-variation-settings: 'wght' 0;
+  }
+  100%{
+    font-variation-settings: 'wght' 100;
+  }
+}
+
+h2{
+	font-size: 30px;
+	font-weight: 300;
+}
+
+p{
+	font-family: "roslindale-display-light";
+	font-size: 20px;
+}
+
+.notes{
+	font-size: 18px;
 }
