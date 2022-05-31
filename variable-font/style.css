@@ -1645,6 +1645,13 @@ a{
     font-size: 75px;
     line-height: 100%;
   }
+
+  .row-small{
+    border: 0.1px solid;
+  }
+  .music-staff-row-wrapper{
+    border: 1px;
+  }
 }
 
 /*550-----------------------------------------------------------*/
