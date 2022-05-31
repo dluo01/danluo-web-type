@@ -1647,8 +1647,16 @@ a{
   }
 }
 
-/*500-----------------------------------------------------------*/
+/*550-----------------------------------------------------------*/
 @media screen and (max-width: 550px){
+  .design-concept{
+    padding-top: 16vh;
+  }
+
+  .ballet-dancers-mobile-version{
+    padding-top: 23vh;
+  }
+
   .line-names{
     font-size: 12px;
     padding-top: 8px;
@@ -1951,17 +1959,17 @@ a{
     display: none;
   }
   .divider-2,.divider-4{
-    font-size: 43px;
+    font-size: 40px;
   }
   .divider-mobile-version,.divider-3-mobile-version{
     display: block;
-    font-size: 43px;
+    font-size: 40px;
   }
   .divider-initial{
-    font-size: 53px;
+    font-size: 50px;
   }
   .bullet{
-    font-size: 93px
+    font-size: 90px
   }
   .divider-mobile-version,.divider-4{
     padding-bottom: 8vh;
@@ -2007,17 +2015,17 @@ a{
     display: none;
   }
   .divider-2,.divider-4{
-    font-size: 40px;
+    font-size: 38px;
   }
   .divider-mobile-version,.divider-3-mobile-version{
     display: block;
-    font-size: 40px;
+    font-size: 38px;
   }
   .divider-initial{
-    font-size: 50px;
+    font-size: 48px;
   }
   .bullet{
-    font-size: 90px
+    font-size: 85px
   }
   .divider-mobile-version,.divider-4{
     padding-bottom: 8vh;
@@ -2063,17 +2071,17 @@ a{
     display: none;
   }
   .divider-2,.divider-4{
-    font-size: 39px;
+    font-size: 35px;
   }
   .divider-mobile-version,.divider-3-mobile-version{
     display: block;
-    font-size: 39px;
+    font-size: 35px;
   }
   .divider-initial{
-    font-size: 49px;
+    font-size: 45px;
   }
   .bullet{
-    font-size: 89px
+    font-size: 80px
   }
   .divider-mobile-version,.divider-4{
     padding-bottom: 8vh;
@@ -2119,17 +2127,17 @@ a{
     display: none;
   }
   .divider-2,.divider-4{
-    font-size: 38px;
+    font-size: 32px;
   }
   .divider-mobile-version,.divider-3-mobile-version{
     display: block;
-    font-size: 38px;
+    font-size: 32px;
   }
   .divider-initial{
-    font-size: 48px;
+    font-size: 42px;
   }
   .bullet{
-    font-size: 78px
+    font-size: 75px
   }
   .divider-mobile-version,.divider-4{
     padding-bottom: 8vh;
