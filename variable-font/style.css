@@ -1665,6 +1665,20 @@ a{
   .divider-mobile-version,.divider-4{
     padding-bottom: 12vh;
   }
+
+  .divider-2,.divider-4{
+    font-size: 60px;
+  }
+  .divider-mobile-version,.divider-3-mobile-version{
+    display: block;
+    font-size: 60px;
+  }
+  .divider-initial{
+    font-size: 75px;
+  }
+  .bullet{
+    font-size: 113px
+  }
   /*type-tester*/
   .sliders-mobile-version{
     font-size: 15px;
@@ -1688,17 +1702,17 @@ a{
     display: none;
   }
   .divider-2,.divider-4{
-    font-size: 57px;
+    font-size: 52px;
   }
   .divider-mobile-version,.divider-3-mobile-version{
     display: block;
-    font-size: 57px;
+    font-size: 52px;
   }
   .divider-initial{
-    font-size: 67px;
+    font-size: 62px;
   }
   .bullet{
-    font-size: 107px
+    font-size: 102px
   }
 /*design-concept*/
   .design-concept{
@@ -1766,17 +1780,17 @@ a{
     display: none;
   }
   .divider-2,.divider-4{
-    font-size: 53px;
+    font-size: 50px;
   }
   .divider-mobile-version,.divider-3-mobile-version{
     display: block;
-    font-size: 53px;
+    font-size: 50px;
   }
   .divider-initial{
-    font-size: 63px;
+    font-size: 60px;
   }
   .bullet{
-    font-size: 103px
+    font-size: 95px
   }
   .divider-mobile-version,.divider-4{
     padding-bottom: 10vh;
@@ -1848,17 +1862,17 @@ a{
     display: none;
   }
   .divider-2,.divider-4{
-    font-size: 51px;
+    font-size: 45px;
   }
   .divider-mobile-version,.divider-3-mobile-version{
     display: block;
-    font-size: 51px;
+    font-size: 45px;
   }
   .divider-initial{
-    font-size: 61px;
+    font-size: 55px;
   }
   .bullet{
-    font-size: 101px
+    font-size: 90px
   }
   .divider-mobile-version,.divider-4{
     padding-bottom: 8vh;
@@ -1903,17 +1917,17 @@ a{
     display: none;
   }
   .divider-2,.divider-4{
-    font-size: 47px;
+    font-size: 37px;
   }
   .divider-mobile-version,.divider-3-mobile-version{
     display: block;
-    font-size: 47px;
+    font-size: 37px;
   }
   .divider-initial{
-    font-size: 57px;
+    font-size: 47px;
   }
   .bullet{
-    font-size: 97px
+    font-size: 85px
   }
   .divider-mobile-version,.divider-4{
     padding-bottom: 8vh;
@@ -1959,17 +1973,17 @@ a{
     display: none;
   }
   .divider-2,.divider-4{
-    font-size: 40px;
+    font-size: 33px;
   }
   .divider-mobile-version,.divider-3-mobile-version{
     display: block;
-    font-size: 40px;
+    font-size: 33px;
   }
   .divider-initial{
-    font-size: 50px;
+    font-size: 43px;
   }
   .bullet{
-    font-size: 90px
+    font-size: 80px
   }
   .divider-mobile-version,.divider-4{
     padding-bottom: 8vh;
@@ -2009,26 +2023,6 @@ a{
 @media screen and (max-width: 350px){
   .line-names{
     font-size: 10px;
-  }
-/*divider*/
-  .divider,.divider-3{
-    display: none;
-  }
-  .divider-2,.divider-4{
-    font-size: 38px;
-  }
-  .divider-mobile-version,.divider-3-mobile-version{
-    display: block;
-    font-size: 38px;
-  }
-  .divider-initial{
-    font-size: 48px;
-  }
-  .bullet{
-    font-size: 85px
-  }
-  .divider-mobile-version,.divider-4{
-    padding-bottom: 8vh;
   }
 
 /*design-concept*/
@@ -2071,17 +2065,17 @@ a{
     display: none;
   }
   .divider-2,.divider-4{
-    font-size: 35px;
+    font-size: 30px;
   }
   .divider-mobile-version,.divider-3-mobile-version{
     display: block;
-    font-size: 35px;
+    font-size: 30px;
   }
   .divider-initial{
-    font-size: 45px;
+    font-size: 40px;
   }
   .bullet{
-    font-size: 80px
+    font-size: 75px
   }
   .divider-mobile-version,.divider-4{
     padding-bottom: 8vh;
@@ -2127,17 +2121,17 @@ a{
     display: none;
   }
   .divider-2,.divider-4{
-    font-size: 32px;
+    font-size: 29px;
   }
   .divider-mobile-version,.divider-3-mobile-version{
     display: block;
-    font-size: 32px;
+    font-size: 29px;
   }
   .divider-initial{
-    font-size: 42px;
+    font-size: 39px;
   }
   .bullet{
-    font-size: 75px
+    font-size: 70px
   }
   .divider-mobile-version,.divider-4{
     padding-bottom: 8vh;
